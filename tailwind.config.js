@@ -17,7 +17,7 @@ module.exports = {
         hmd: '968px',
       },
       animation: {
-        scroll: 'scroll 40s linear infinite',
+        scroll: 'scroll 30s linear infinite',
       },
       keyframes: {
         scroll: {
