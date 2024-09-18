@@ -1,0 +1,29 @@
+.parent {
+  background: rgba(255, 255, 255, 0.068);
+  color: #fff;
+  border-radius: 37px;
+}
+
+.logo {
+  top: -60px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  animation: dropShadowEffect 3s infinite;
+}
+
+.logo1 {
+  filter: drop-shadow(0 0 2em #022a8f );
+}
+
+.logo2 {
+  filter: drop-shadow(0 0 2em #f7b239);
+}
+
+.logo3 {
+  filter: drop-shadow(0 0 2em #1c78c0);
+}
+
+.logo4 {
+  filter: drop-shadow(0 0 2em #045b67);
+}

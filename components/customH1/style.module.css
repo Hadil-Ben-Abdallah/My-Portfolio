@@ -1,0 +1,80 @@
+.h1 {
+  text-transform: uppercase;
+  margin: 0 auto 20px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 30px !important;
+  font-weight: 600;
+  width: fit-content;
+  position: relative;
+  z-index: 0;
+  cursor: var(--pointer-cursor);
+}
+
+.h1::before,
+.h1::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--textColor);
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.h1::before {
+  left: -30px;
+}
+
+.h1::after {
+  right: -30px;
+}
+
+.h1:hover::before {
+  z-index: -1;
+  animation: left-move 0.3s linear forwards;
+}
+
+.h1:hover::after {
+  z-index: -1;
+  animation: right-move 0.3s linear forwards;
+}
+
+.h1:hover {
+  color: white;
+  border: 2px solid transparent;
+  transition-delay: 0.5s;
+}
+
+@keyframes left-move {
+  50% {
+    left: 0;
+    width: 12px;
+    height: 12px;
+  }
+
+  100% {
+    left: 0;
+    border-radius: 0;
+    width: 51%;
+    height: 100%;
+  }
+}
+
+@keyframes right-move {
+  50% {
+    right: 0;
+    width: 12px;
+    height: 12px;
+  }
+
+  100% {
+    right: 0;
+    border-radius: 0;
+    width: 51%;
+    height: 100%;
+  }
+}

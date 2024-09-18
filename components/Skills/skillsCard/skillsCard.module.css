@@ -1,0 +1,19 @@
+.card {
+  background-color: #ffffff11;
+  transition: .3s;
+  border: 2px solid transparent;
+  cursor: pointer;
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  padding: var(--p-5);
+  position: relative;
+  cursor: var(--pointer-cursor);
+}
+.card:hover {
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--textColor);
+}

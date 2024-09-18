@@ -1,0 +1,24 @@
+{
+  "name": "Hadil Ben Abdallah Website",
+  "short_name": "Hadil Ben Abdallah",
+  "description": "A Progressive Web App built by Hadil",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f11",
+  "theme_color": "#0f0f11",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/imgs/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "maskable": true
+}

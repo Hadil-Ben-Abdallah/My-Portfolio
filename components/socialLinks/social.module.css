@@ -1,0 +1,37 @@
+.wrapper {
+  margin-right: 44px;
+
+}
+
+@media (max-width:908px) {
+  .mobile {
+    display: none;
+  }
+
+}
+
+.wrapper div {
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-direction: columns;
+  padding: 10px;
+}
+
+.wrapper div a>* {
+  transition: transform .3s ease-in-out;
+}
+
+.wrapper div a>*:hover {
+  transform: scale(1.1);
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  height: 113px;
+  left: 28%;
+  top: -48.5%;
+  width: 5px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}

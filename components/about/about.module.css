@@ -1,0 +1,281 @@
+.about-container {
+  width: 100%;
+  padding: 50px 8%;
+}
+
+.imageSection {
+  grid-area: imageSect;
+}
+
+.infosection {
+  grid-area: infoSect;
+}
+
+.skillSection {
+  grid-area: skillSect;
+
+}
+
+.about-container .about-content {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-gap: 70px;
+  grid-template-areas:
+    'imageSect infoSect '
+    'skillSect skillSect';
+}
+
+.about-content .imageSection {
+  position: relative;
+  min-width: 300px;
+  height: 380px;
+}
+
+.imageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+/* .about-content .imageSection::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  outline: 3px solid var(--textColor);
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+} */
+
+
+.infosection h2 {
+  font-weight: 600;
+  color: var(--textColor);
+  padding: 14px 0 15px;
+  letter-spacing: 1px;
+}
+
+.infosection p {
+  padding-bottom: 8px;
+}
+
+.personalInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 20px;
+  margin-top: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid ;
+}
+
+.personalInfo div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.personalInfo div span {
+
+  letter-spacing: 1px;
+}
+
+.infosection button {
+  min-width: 200px;
+  padding: 12px 18px;
+  cursor: pointer;
+  Letter-spacing: 1px;
+  cursor: pointer;
+  transition: all .4s;
+  margin-top: 20px;
+}
+
+
+
+.skillSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 80px;
+
+}
+
+.skillSection .subject {
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 16px;
+  background-color: #312f2f;
+  padding: 4px 6px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #444;
+  border-radius: 15px;
+}
+
+@keyframes progress1 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 95%;
+    opacity: 1;
+  }
+}
+
+@keyframes progress2 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 85%;
+    opacity: 1;
+  }
+}
+
+@keyframes progress3 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+@keyframes progress4 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+.fade-in1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--textColor);
+  box-shadow: -1px -1px 2px #222 1px 1px 2px #111;
+  border-radius: 15px;
+  animation: progress1 1s ease-in-out forwards;
+}
+
+.fade-in2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--textColor);
+  box-shadow: -1px -1px 2px #222 1px 1px 2px #111;
+  border-radius: 15px;
+  animation: progress2 1s ease-in-out forwards;
+}
+
+.fade-in3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--textColor);
+  box-shadow: -1px -1px 2px #222 1px 1px 2px #111;
+  border-radius: 15px;
+  animation: progress3 1s ease-in-out forwards;
+}
+
+.fade-in4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--textColor);
+  box-shadow: -1px -1px 2px #222 1px 1px 2px #111;
+  border-radius: 15px;
+  animation: progress4 1s ease-in-out forwards;
+}
+
+.progress-line {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--textColor);
+  box-shadow: -1px -1px 2px #222 1px 1px 2px #111;
+  border-radius: 15px;
+}
+
+.fade-in1::after,
+.fade-in2::after,
+.fade-in3::after,
+.fade-in4::after {
+  position: absolute;
+  content: attr(value);
+  top: -35px;
+  right: 0;
+  transform: translateX(-50%);
+  font-size: 17px;
+}
+
+/* .fade-in4::after{
+  position: absolute;
+  content: attr(value);
+  top: -35px;
+  right: 0;
+  transform: translateX(-50%);
+  color: #333;
+  font-size: 17px;
+} */
+
+.progress-line::after {
+  position: absolute;
+  content: attr(value);
+  top: -35px;
+  right: 0;
+  transform: translateX(-50%);
+  color: #333;
+  font-size: 17px;
+}
+
+@media (max-width:1068px) {
+  .about-container .about-content {
+    grid-template-areas: 'imageSect skillSect '
+      'infoSect infoSect';
+  }
+
+  .skillSection {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width:868px) {
+  .about-container .about-content {
+    grid-template-areas:
+      'imageSect imageSect'
+      'infoSect infoSect'
+      'skillSect skillSect ' !important;
+  }
+
+  .skillSection {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width:668px) {
+  .personalInfo {
+    grid-template-columns: 1fr;
+  }
+}
