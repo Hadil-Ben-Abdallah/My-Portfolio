@@ -16,20 +16,16 @@ module.exports = {
       screens: {
         hmd: '968px',
       },
+      animation: {
+        scroll: 'scroll 40s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        }
+      }
     },
   },
   plugins: [],
-  // theme: {
-  //   extend: {
-  //     animation: {
-  //       scroll: 'scroll 40s linear infinite',
-  //     },
-  //     keyframes: {
-  //       scroll: {
-  //         '0%': { transform: 'translateX(0)' },
-  //         '100%': { transform: 'translateX(-50%)' },
-  //       }
-  //     }
-  //   },
-  // },
 };

@@ -24,23 +24,28 @@ import React from 'react';
 import HyperOne from '../customH1/HyperOne';
 
 const Certificates = () => {
-  // const certificates = [
-  //   { id: 1, name: 'Certificate 1', image: '/api/placeholder/200/100' },
-  //   { id: 2, name: 'Certificate 2', image: '/api/placeholder/200/100' },
-  //   { id: 3, name: 'Certificate 3', image: '/api/placeholder/200/100' },
-  //   { id: 4, name: 'Certificate 4', image: '/api/placeholder/200/100' },
-  //   { id: 5, name: 'Certificate 5', image: '/api/placeholder/200/100' },
-  // ];
+  // Sample certificate data - replace with your actual certificates
+  const certificates = [
+    { id: 1, name: 'Certificate 1', image: '/api/placeholder/200/100' },
+    { id: 2, name: 'Certificate 2', image: '/api/placeholder/200/100' },
+    { id: 3, name: 'Certificate 3', image: '/api/placeholder/200/100' },
+    { id: 4, name: 'Certificate 4', image: '/api/placeholder/200/100' },
+    { id: 5, name: 'Certificate 5', image: '/api/placeholder/200/100' },
+  ];
 
   return (
-    <div id="certificates" className="py-16">
+    <div id="certificates" className="py-16 w-full overflow-hidden">
       <HyperOne value="Certificates" />
-
-      {/* can get the code in the bottom */}
-
-      <p className="text-center mt-2 lg:mx-32 lg:text-2xl sm:text-2xl">
-          Soon...
-      </p>
+      <div className="relative mt-8">
+        <div className="flex animate-scroll whitespace-nowrap">
+          {[...certificates, ...certificates].map((cert, index) => (
+            <div key={`${cert.id}-${index}`} className="inline-flex flex-col items-center mx-4 w-64 flex-shrink-0">
+              <img src={cert.image} alt={cert.name} className="w-full h-auto" />
+              <p className="mt-2 text-center">{cert.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
