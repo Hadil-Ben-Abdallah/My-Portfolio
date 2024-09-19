@@ -17,7 +17,7 @@ module.exports = {
         hmd: '968px',
       },
       animation: {
-        'scroll-mobile': 'scroll 15s linear infinite',
+        'scroll-mobile': 'scroll 8s linear infinite',
         'scroll-tablet': 'scroll 20s linear infinite',
         'scroll-desktop': 'scroll 23s linear infinite',
       },
