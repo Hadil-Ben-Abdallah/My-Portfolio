@@ -88,7 +88,7 @@ export const Animation = () => {
           value: 0.5,
         },
         shape: {
-          type: 'circle',
+          type: 'triangle',
         },
         size: {
           value: { min: 1, max: 5 },
