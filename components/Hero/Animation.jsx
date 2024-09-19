@@ -59,7 +59,7 @@ export const Animation = () => {
         },
         links: {
           color: '#0284C7',
-          distance: 170,
+          distance: 175,
           enable: true,
           opacity: 0.5,
           width: 1,
@@ -82,7 +82,7 @@ export const Animation = () => {
             enable: true,
             area: 800,
           },
-          value: 80, // Adjust as needed
+          value: 90, // Adjust as needed
         },
         opacity: {
           value: 0.5,

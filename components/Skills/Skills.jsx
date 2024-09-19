@@ -20,6 +20,7 @@ const Skills = () => {
     { name: 'Git', imageSrc: '/svg/skills/git.svg' },
     { name: 'GitHub', imageSrc: '/svg/skills/github.svg' },
     { name: 'GitLab', imageSrc: '/svg/skills/gitlab.svg' },
+    { name: 'GitLab', imageSrc: '/svg/skills/markdown.svg' },
     { name: 'VSCode', imageSrc: '/svg/skills/vscode.svg' },
     { name: 'Notion', imageSrc: '/svg/skills/notion.svg' },
   ];

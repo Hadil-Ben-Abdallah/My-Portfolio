@@ -13,10 +13,10 @@ const Certificates = () => {
     <div id="certificates" className="py-16 w-full overflow-hidden">
       <HyperOne value="Certificates" />
       <div className="relative mt-8">
-        <div className="flex animate-scroll whitespace-nowrap">
+        <div className="flex animate-scroll-mobile sm:animate-scroll-tablet md:animate-scroll-desktop whitespace-nowrap">
           {[...certificates, ...certificates, ...certificates].map((cert, index) => (
-            <div key={`${cert.id}-${index}`} className="inline-flex flex-col items-center mx-4 w-64 flex-shrink-0">
-              <div className="relative w-full h-60">
+            <div key={`${cert.id}-${index}`} className="inline-flex flex-col items-center mx-4 w-48 sm:w-56 md:w-64 flex-shrink-0">
+              <div className="relative w-full h-32 sm:h-36 md:h-60">
                 <Image 
                   src={cert.image} 
                   alt={cert.name} 
