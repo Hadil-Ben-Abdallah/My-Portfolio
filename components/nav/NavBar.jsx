@@ -9,9 +9,9 @@ export default function NavBar() {
     { id: 3, name: 'Services', href: '#services' },
     { id: 4, name: 'Skills', href: '#skills' },
     { id: 5, name: 'Projects', href: '#projects' },
-    { id: 5, name: 'Blog', href: '#blog' },
-    { id: 6, name: 'Certificates', href: '#certificates' },
-    { id: 7, name: 'Contact', href: '#contact' },
+    { id: 6, name: 'Blog', href: '#blog' },
+    { id: 7, name: 'Certificates', href: '#certificates' },
+    { id: 8, name: 'Contact', href: '#contact' },
     {
       id: 8,
       name: <ThemeToggler />,

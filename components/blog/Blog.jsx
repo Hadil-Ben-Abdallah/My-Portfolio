@@ -67,7 +67,7 @@ export default function Blog() {
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
-        <HyperOne value="Blog Posts" />
+        <HyperOne value={'Blog'} />
         <br/>
         <br/>
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -91,7 +91,7 @@ export default function Blog() {
             </div>
           ))}
         </div> */}
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div id="blog" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
   {visiblePosts.map((post) => (
     <div
       key={post.id}
@@ -104,7 +104,7 @@ export default function Blog() {
           <p className="text-gray-600 dark:text-gray-300">{post.description}</p>
         </div>
         <div className="p-4 mt-auto">
-          <button className="text-sky-600 dark:text-blue-400 hover:no-underline cursor-pointer">
+          <button className="text-sky-600 dark:text-blue-400 font-bold hover:no-underline cursor-pointer">
             <a href={post.link} target="_blank" rel="noopener noreferrer">
               Read More
             </a>
