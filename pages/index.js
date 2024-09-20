@@ -8,6 +8,7 @@ import Offer from '@/components/offer/Offer';
 import Projects from '@/components/projects/Projects';
 import Services from '@/components/services/Services';
 import Certificates from './../components/certificates/Certificates';
+import Blog from '@/components/blog/Blog';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
@@ -73,6 +74,9 @@ export default function Home() {
         </div>
         <div className="mt-16">
           <Projects />
+        </div>
+        <div className="mt-16">
+          <Blog />
         </div>
         <div className="mt-16">
           <Certificates />
