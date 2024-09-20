@@ -4,7 +4,6 @@ import { useState } from 'react'
 import Image from 'next/image';
 import HyperOne from '../customH1/HyperOne';
 
-// Mock data for the blog posts
 const blogPosts = [
   {
     id: 6,
@@ -48,7 +47,6 @@ const blogPosts = [
     image: "/imgs/article1.png?height=200&width=300",
     link: "https://dev.to/hadil/11-amazing-games-to-master-css-in-a-fun-may-36ph"
   },
-  // Add more blog posts as needed
 ]
 
 const POSTS_PER_PAGE = 6

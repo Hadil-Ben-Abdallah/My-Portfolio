@@ -82,7 +82,7 @@ export const Animation = () => {
             enable: true,
             area: 800,
           },
-          value: 90, // Adjust as needed
+          value: 110,
         },
         opacity: {
           value: 0.5,
