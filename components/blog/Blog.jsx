@@ -95,7 +95,7 @@ export default function Blog() {
   {visiblePosts.map((post) => (
     <div
       key={post.id}
-      className="w-80 mx-auto transform hover:rotate-2 hover:scale-105 transition-transform duration-300"
+      className="w-96 mx-auto transform hover:rotate-2 hover:scale-105 transition-transform duration-300"
     >
       <div className="border border-gray-300 rounded-lg overflow-hidden h-full flex flex-col">
         <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
