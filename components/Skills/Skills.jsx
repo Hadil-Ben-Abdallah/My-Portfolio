@@ -24,14 +24,15 @@ const Skills = () => {
     { name: 'VSCode', imageSrc: '/svg/skills/vscode.svg' },
     { name: 'Notion', imageSrc: '/svg/skills/notion.svg' },
   ];
+  const skillstext = `These are the essential tools, libraries, and frameworks that
+          constitute my current tech stack, enabling me to develop robust and
+          innovative applications`;
   return (
     <div id="skills" className="container lg:my-24">
       <div className="flex flex-col items-center">
         <HyperOne value="My Skills" />
-        <p className="text-center mt-2 lg:mx-32 lg:text-2xl text-xl">
-          These are the essential tools, libraries, and frameworks that
-          constitute my current tech stack, enabling me to develop robust and
-          innovative applications{' '}
+        <p className="lg:text-2xl lg:text-center text-xl p-4 text-justify">
+          {skillstext}
         </p>
       </div>
       <div className="skillCard mt-12 flex justify-center flex-wrap lg:mx-32 z-1 gap-8 ">

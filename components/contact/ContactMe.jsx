@@ -81,7 +81,7 @@ export default function ContactMe() {
         <section className="flex flex-col mx-8 sm:mx-16 mt-8 sm:mt-0">
           <form ref={form} className="max-w-md mx-auto" onSubmit={sendEmail}>
             <div className="mb-4">
-              <label htmlFor="user_name" className=" font-semibold mb-2">
+              <label htmlFor="user_name" className=" font-semibold mb-2 cursor-custom">
                 Name
               </label>
               <input
@@ -92,7 +92,7 @@ export default function ContactMe() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="from_name" className=" font-semibold mb-2">
+              <label htmlFor="from_name" className=" font-semibold mb-2 cursor-custom">
                 Email
               </label>
               <input
@@ -103,7 +103,7 @@ export default function ContactMe() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="font-semibold mb-2">
+              <label htmlFor="message" className="font-semibold mb-2 cursor-custom">
                 Message
               </label>
               <textarea

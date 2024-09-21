@@ -199,3 +199,7 @@ a:hover {
 .light .card {
   background-color: #dcdcdc
 }
+
+.cursor-custom {
+  cursor: var(--custom-cursor);
+}
