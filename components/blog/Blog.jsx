@@ -65,9 +65,12 @@ export default function Blog() {
   return (
     <section className="py-12">
       <div className="container mx-auto px-4">
-        <HyperOne value={'Blog'} />
-        <br/>
-        <br/>
+        <div className="flex flex-col items-center">
+          <HyperOne value={'Blog'} />
+          {/* <p className="text-center mt-2 lg:mx-32 lg:text-2xl text-xl">
+            Sharing knowledge through writing is a passion of mine, as it allows me to reflect on my learning journey and help others along the way. Below are some of my articles on programming, where I explore key concepts and trends. Writing about these topics not only strengthens my understanding but also fosters a collaborative community of growth and innovation.{' '}
+          </p> */}
+        </div>
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {visiblePosts.map((post) => (
             <div
@@ -89,31 +92,29 @@ export default function Blog() {
             </div>
           ))}
         </div> */}
-<div id="blog" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-  {visiblePosts.map((post) => (
-    <div
-      key={post.id}
-      className="w-96 mx-auto transform hover:rotate-2 hover:scale-105 transition-transform duration-300"
-    >
-      <div className="border border-gray-300 rounded-lg overflow-hidden h-full flex flex-col">
-        <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
-        <div className="p-4 flex-grow">
-          <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
-          <p className="text-gray-600 dark:text-gray-300">{post.description}</p>
+        <div id="blog" className="grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {visiblePosts.map((post) => (
+            <div
+              key={post.id}
+              className="w-96 mx-auto transform hover:rotate-2 hover:scale-105 transition-transform duration-300"
+            >
+              <div className="border border-gray-300 rounded-lg overflow-hidden h-full flex flex-col">
+                <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+                <div className="p-4 flex-grow">
+                  <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
+                  <p className="text-gray-600 dark:text-gray-300">{post.description}</p>
+                </div>
+                <div className="p-4 mt-auto">
+                  <button className="text-sky-600 dark:text-blue-400 font-bold hover:no-underline">
+                    <a href={post.link} target="_blank" rel="noopener noreferrer">
+                      Read More
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className="p-4 mt-auto">
-          <button className="text-sky-600 dark:text-blue-400 font-bold hover:no-underline cursor-pointer">
-            <a href={post.link} target="_blank" rel="noopener noreferrer">
-              Read More
-            </a>
-          </button>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-
-
 
         <div className="flex justify-center items-center mt-8 space-x-2">
           <button
@@ -126,11 +127,10 @@ export default function Blog() {
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
             <button
               key={page}
-              className={`px-3 py-2 rounded ${
-                currentPage === page 
-                  ? 'bg-sky-600 text-white' 
+              className={`px-3 py-2 rounded ${currentPage === page
+                  ? 'bg-sky-600 text-white'
                   : 'border border-gray-300 dark:border-gray-600'
-              }`}
+                }`}
               onClick={() => handlePageChange(page)}
             >
               {page}

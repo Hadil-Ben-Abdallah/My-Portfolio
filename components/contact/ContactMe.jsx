@@ -54,7 +54,7 @@ export default function ContactMe() {
       <style jsx>{`
         .popup {
           position: fixed;
-          top: 7%;
+          top: 10%;
           right: 1%;
           background-color: rgba(0, 0, 0, 0.6);
           padding:20px;

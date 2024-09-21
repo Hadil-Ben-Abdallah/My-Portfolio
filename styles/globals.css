@@ -162,6 +162,11 @@ a:hover {
   color: var(--mainColor);
 }
 
+.light input[type="submit"] {
+  background-color: var(--textColor);
+  color: white;
+}
+
 .light .skillCard>* {
   background-color: #dcdcdc;
 }
