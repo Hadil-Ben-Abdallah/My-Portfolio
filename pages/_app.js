@@ -4,8 +4,9 @@ import { Analytics } from '@vercel/analytics/react';
 
 const montserrat = Rubik({
   subsets: ['latin'],
-  weight: 'variable',
   display: 'swap',
+  fallback: ['system-ui', 'arial'],
+  preload: false,
 });
 import { ThemeProvider } from '@/context/ContextProvider';
 import { useEffect } from 'react';

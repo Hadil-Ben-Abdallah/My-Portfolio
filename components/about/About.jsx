@@ -14,6 +14,12 @@ const About = () => {
   const ref4 = useRef(null);
 
   useEffect(() => {
+
+    const currentRef1 = ref1.current;
+    const currentRef2 = ref2.current;
+    const currentRef3 = ref3.current;
+    const currentRef4 = ref4.current;
+
     const handleIntersection = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -51,10 +57,10 @@ const About = () => {
     if (ref4.current) observer4.observe(ref4.current);
 
     return () => {
-      if (ref1.current) observer1.unobserve(ref1.current);
-      if (ref2.current) observer2.unobserve(ref2.current);
-      if (ref3.current) observer3.unobserve(ref3.current);
-      if (ref4.current) observer4.unobserve(ref4.current);
+      if (currentRef1) observer.unobserve(currentRef1);
+      if (currentRef2) observer.unobserve(currentRef2);
+      if (currentRef3) observer.unobserve(currentRef3);
+      if (currentRef4) observer.unobserve(currentRef4);
     };
   }, []);
   const MyAboutImage = React.lazy(() => import('../image/MyImage'));
