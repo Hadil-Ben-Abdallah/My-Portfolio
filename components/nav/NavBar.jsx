@@ -13,7 +13,7 @@ export default function NavBar() {
     { id: 7, name: 'Certificates', href: '#certificates' },
     { id: 8, name: 'Contact', href: '#contact' },
     {
-      id: 8,
+      id: 9,
       name: <ThemeToggler />,
       href: '/',
       onClick: (e) => e.preventDefault(),
@@ -97,7 +97,7 @@ export default function NavBar() {
       </div>
       {isOpen && (
         <div className="hmd:hidden">
-          <div className="relative h-96 px-2 pt-2 pb-3 sm:px-3 bg-mainBg z-50">
+          <div className="relative px-2 pt-2 pb-3 sm:px-3 bg-mainBg z-50 h-auto min-h-[24rem] flex flex-col justify-between">
             {navigation.map((navlink) => {
               return (
                 <Link

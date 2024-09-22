@@ -1,7 +1,6 @@
 import React, { Suspense, useEffect, useMemo, useState, useRef } from 'react';
 import styles from './about.module.css';
 import HyperOne from '../customH1/HyperOne';
-
 import CustomButton from '../button/CustomButton';
 import Link from 'next/link';
 import { AboutFallback } from '../image/Fallback';
@@ -14,7 +13,6 @@ const About = () => {
   const ref4 = useRef(null);
 
   useEffect(() => {
-
     const currentRef1 = ref1.current;
     const currentRef2 = ref2.current;
     const currentRef3 = ref3.current;
@@ -34,33 +32,21 @@ const About = () => {
       threshold: 0.25,
     };
 
-    const observer1 = new IntersectionObserver(
-      handleIntersection,
-      observerOptions
-    );
-    const observer2 = new IntersectionObserver(
-      handleIntersection,
-      observerOptions
-    );
-    const observer3 = new IntersectionObserver(
-      handleIntersection,
-      observerOptions
-    );
-    const observer4 = new IntersectionObserver(
-      handleIntersection,
-      observerOptions
-    );
+    const observer1 = new IntersectionObserver(handleIntersection, observerOptions);
+    const observer2 = new IntersectionObserver(handleIntersection, observerOptions);
+    const observer3 = new IntersectionObserver(handleIntersection, observerOptions);
+    const observer4 = new IntersectionObserver(handleIntersection, observerOptions);
 
-    if (ref1.current) observer1.observe(ref1.current);
-    if (ref2.current) observer2.observe(ref2.current);
-    if (ref3.current) observer3.observe(ref3.current);
-    if (ref4.current) observer4.observe(ref4.current);
+    if (currentRef1) observer1.observe(currentRef1);
+    if (currentRef2) observer2.observe(currentRef2);
+    if (currentRef3) observer3.observe(currentRef3);
+    if (currentRef4) observer4.observe(currentRef4);
 
     return () => {
-      if (currentRef1) observer.unobserve(currentRef1);
-      if (currentRef2) observer.unobserve(currentRef2);
-      if (currentRef3) observer.unobserve(currentRef3);
-      if (currentRef4) observer.unobserve(currentRef4);
+      if (currentRef1) observer1.unobserve(currentRef1);
+      if (currentRef2) observer2.unobserve(currentRef2);
+      if (currentRef3) observer3.unobserve(currentRef3);
+      if (currentRef4) observer4.unobserve(currentRef4);
     };
   }, []);
   const MyAboutImage = React.lazy(() => import('../image/MyImage'));
