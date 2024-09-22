@@ -142,16 +142,6 @@ export default function ContactMe() {
           <p>Please fill out all fields ❌⚠️</p>
         </div>
       )}
-      {error && (
-        <div className="popup">
-          <p>{error}</p>
-        </div>
-      )}
-      {isNotEmpty && (
-        <div className="popup">
-          <p>Please fill out the fields ❌⚠️</p>
-        </div>
-      )}
     </>
   );
 }
