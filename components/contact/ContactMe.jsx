@@ -1,12 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
 import HyperOne from '../customH1/HyperOne';
 import emailjs from '@emailjs/browser';
+
 export default function ContactMe() {
   const form = useRef();
   const [isMessageSent, setMessageSent] = useState(false);
   const [isNotEmpty, setIsNotEmpty] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Initialize EmailJS
+    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_USER_ID);
+  }, []);
+
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log("Form submitted");
 
     // Validation logic
     const userName = form.current.user_name.value;
@@ -14,10 +23,12 @@ export default function ContactMe() {
     const message = form.current.message.value;
 
     if (!userName || !userEmail || !message) {
+      console.log("Form validation failed");
       setIsNotEmpty(true);
       return;
     }
 
+    console.log("Sending email...");
     emailjs
       .sendForm(
         'service_xjpmna6',
@@ -27,27 +38,28 @@ export default function ContactMe() {
       )
       .then(
         (result) => {
+          console.log("Email sent successfully:", result.text);
           e.target.reset();
-          console.log(result.text);
           setMessageSent(true);
+          setError(null);
         },
         (error) => {
-          console.log(error.text);
+          console.error("Failed to send email:", error.text);
+          setError("Failed to send email. Please try again later.");
         }
       );
   };
+
   useEffect(() => {
-    if (isMessageSent) {
-      setTimeout(() => {
+    if (isMessageSent || isNotEmpty || error) {
+      const timer = setTimeout(() => {
         setMessageSent(false);
-      }, 3000);
-    }
-    if (isNotEmpty) {
-      setTimeout(() => {
         setIsNotEmpty(false);
+        setError(null);
       }, 3000);
+      return () => clearTimeout(timer);
     }
-  }, [isMessageSent, isNotEmpty]);
+  }, [isMessageSent, isNotEmpty, error]);
   return (
     <>
       <style jsx>{`
@@ -123,6 +135,16 @@ export default function ContactMe() {
       {isMessageSent && (
         <div className="popup">
           <p>Message sent successfully! 💙✅</p>
+        </div>
+      )}
+      {isNotEmpty && (
+        <div className="popup">
+          <p>Please fill out all fields ❌⚠️</p>
+        </div>
+      )}
+      {error && (
+        <div className="popup">
+          <p>{error}</p>
         </div>
       )}
       {isNotEmpty && (
