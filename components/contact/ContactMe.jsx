@@ -14,17 +14,16 @@ export default function ContactMe() {
     const message = form.current.message.value;
 
     if (!userName || !userEmail || !message) {
-      setIsNotEmpty(true); // Show validation error message
-      return; // Don't proceed with email sending
+      setIsNotEmpty(true);
+      return;
     }
 
-    // Continue with email sending logic
     emailjs
       .sendForm(
-        'service_cnuk8aj',
-        'template_klyj8ri',
+        'service_xjpmna6',
+        'template_xpmqgei',
         form.current,
-        'lio_aMUhSkOeURXu0'
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID
       )
       .then(
         (result) => {

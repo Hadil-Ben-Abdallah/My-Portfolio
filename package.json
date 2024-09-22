@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.12.1",
     "@vercel/analytics": "^1.0.2",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
