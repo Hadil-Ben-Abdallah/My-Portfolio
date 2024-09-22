@@ -26,7 +26,7 @@ const Skills = () => {
   ];
   const skillstext = `These are the essential tools, libraries, and frameworks that
           constitute my current tech stack, enabling me to develop robust and
-          innovative applications`;
+          innovative applications.`;
   return (
     <div id="skills" className="container lg:my-24">
       <div className="flex flex-col items-center">

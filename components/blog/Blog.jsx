@@ -62,16 +62,17 @@ const Blog = () => {
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
   const visiblePosts = blogPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
   const blogText = `Sharing knowledge through writing is a passion of mine, as it allows me to reflect on my learning journey and help others along the way. Below are some of my articles on programming, where I explore key concepts and trends.`;
+  
   return (
     <section id="blog">
-      <div className="container lg:my-24">
+      <div className="container lg:my-24 "> {/* Added max-w-6xl and mx-auto */}
         <div className="flex flex-col items-center">
           <HyperOne value="Blog" />
           <p className="lg:text-2xl lg:text-center text-xl p-4 text-justify">
-          {blogText}
+            {blogText}
           </p>
         </div>
-          <div id="blog" className="px-5 grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div id="blog" className="px-5 grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {visiblePosts.map((post) => (
             <BlogCard key={post.id} post={post} />
           ))}
