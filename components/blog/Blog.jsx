@@ -71,16 +71,20 @@ const Blog = () => {
   };
 
   useEffect(() => {
-    const blogSection = document.getElementById('blog');
-    if (blogSection) {
-      blogSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Only scroll to the blog section if the URL contains "#blog"
+    if (window.location.hash === '#blog') {
+      const blogSection = document.getElementById('blog');
+      if (blogSection) {
+        blogSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     }
   }, [currentPage]);
 
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
   const visiblePosts = blogPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+
   const blogText = `Sharing knowledge through writing is a passion of mine, as it allows me to reflect on my learning journey and help others along the way. Below are some of my articles on programming, where I explore key concepts and trends.`;
-  
+
   return (
     <section id="blog">
       <div className="container lg:my-24">
