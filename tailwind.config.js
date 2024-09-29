@@ -17,14 +17,14 @@ module.exports = {
         hmd: '968px',
       },
       animation: {
-        'scroll-mobile': 'scroll 8s linear infinite',
-        'scroll-tablet': 'scroll 20s linear infinite',
-        'scroll-desktop': 'scroll 23s linear infinite',
+        'scroll-mobile': 'scroll 10s linear infinite',
+        'scroll-tablet': 'scroll 22s linear infinite',
+        'scroll-desktop': 'scroll 25s linear infinite',
       },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-66.666667%)' },
+          '100%': { transform: 'translateX(-100%)' },
         }
       }
     },
