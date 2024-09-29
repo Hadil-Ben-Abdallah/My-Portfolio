@@ -7,6 +7,27 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 10,
+    title: "🎨 shadcn: The Rebel Without a Cause in the UI Framework World 🚀",
+    description: "An article about shadcn, the open-source UI framework.",
+    image: "/imgs/article10.jpg?height=200&width=300",
+    link: "https://dev.to/hadil/shadcn-the-rebel-without-a-cause-in-the-ui-framework-world-pm7"
+  },
+  {
+    id: 9,
+    title: "🚀 Git and GitHub: Your Ticket to Time Travel and Collaboration! 🕰️👥",
+    description: "An article about Git and GitHub.",
+    image: "/imgs/article9.png?height=200&width=300",
+    link: "https://dev.to/hadil/git-and-github-your-ticket-to-time-travel-and-collaboration-kaj"
+  },
+  {
+    id: 8,
+    title: "🚀 The Ultimate Guide to DOs and DON'Ts for Software Developers 🛠️",
+    description: "An article contains some important advices for software developers.",
+    image: "/imgs/article8.jpg?height=200&width=300",
+    link: "https://dev.to/hadil/the-ultimate-guide-to-dos-and-donts-for-software-developers-2o34"
+  },
+  {
     id: 7,
     title: "Notion: Your Digital Swiss Army Knife 🇨🇭🔪",
     description: "An article about Notion, the productivity and note-taking web application.",
