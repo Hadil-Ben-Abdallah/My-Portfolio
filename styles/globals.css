@@ -203,3 +203,47 @@ a:hover {
 .cursor-custom {
   cursor: var(--custom-cursor);
 }
+
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-sm-lg {
+  animation: infinite-scroll calc(10s * 7) linear infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.scroll-sm-md {
+  animation: infinite-scroll 12s linear infinite;
+  -webkit-animation: infinite-scroll 12s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .scroll-sm-lg {
+    animation: infinite-scroll calc(10s * 2) linear infinite;
+    -webkit-animation: infinite-scroll calc(10 * 2) linear infinite;
+  }
+}
