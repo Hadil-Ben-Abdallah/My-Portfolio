@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 11,
+    title: "✈️ Plane: The Project Management Tool That'll Make You Say \"Oh, Ship!\" 🚀",
+    description: "An article about Plane, the open-source project management tool.",
+    image: "/imgs/article11.jpg?height=200&width=300",
+    link: "https://dev.to/hadil/plane-the-project-management-tool-thatll-make-you-say-oh-ship-4512"
+  },
+  {
     id: 10,
     title: "🎨 shadcn: The Rebel Without a Cause in the UI Framework World 🚀",
     description: "An article about shadcn, the open-source UI framework.",
