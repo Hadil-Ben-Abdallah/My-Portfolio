@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 12,
+    title: "🚀 React.js vs. Next.js: The Ultimate Showdown! 💥",
+    description: "A deep comparaison between React.js and Next.js, the two most popular JavaScript frameworks.",
+    image: "/imgs/article12.png?height=200&width=300",
+    link: "https://dev.to/hadil/reactjs-vs-nextjs-the-ultimate-showdown-432c"
+  },
+  {
     id: 11,
     title: "✈️ Plane: The Project Management Tool That'll Make You Say \"Oh, Ship!\" 🚀",
     description: "An article about Plane, the open-source project management tool.",
