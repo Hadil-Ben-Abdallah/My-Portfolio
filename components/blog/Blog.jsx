@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 13,
+    title: "20 Essential Tips for Full-Stack Developers: Level Up Your Skills! 🚀",
+    description: "An article about 20 Essential Tips for Full-Stack Developers.",
+    image: "/imgs/article13.jpeg?height=200&width=300",
+    link: "https://dev.to/hadil/20-essential-tips-for-full-stack-developers-level-up-your-skills-4ehi"
+  },
+  {
     id: 12,
     title: "🚀 React.js vs. Next.js: The Ultimate Showdown! 💥",
     description: "A deep comparaison between React.js and Next.js, the two most popular JavaScript frameworks.",
