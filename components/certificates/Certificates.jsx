@@ -10,6 +10,7 @@ const Certificates = () => {
     { id: 4, name: 'Certificate 4', image: '/imgs/SixSigmaYellowBelt.jpg' },
     { id: 5, name: 'Certificate 5', image: '/imgs/50_days_badge.png' },
     { id: 6, name: 'Certificate 6', image: '/imgs/ScrumforOpsandDevOpsFundamentals.jpg' },
+    { id: 7, name: 'Certificate 7', image: '/imgs/NegotiationAssociate.jpg' },
   ];
 
   return (
