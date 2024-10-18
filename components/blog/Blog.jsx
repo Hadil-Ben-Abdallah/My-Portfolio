@@ -7,6 +7,20 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 15,
+    title: "🕸️ MDN Web Docs: The Ultimate Developer's Toolbox 🌟",
+    description: "An article about MDN Web Docs, the real treasure for every developer who's looking for a good source to learn.",
+    image: "/imgs/article15.png?height=200&width=300",
+    link: "https://dev.to/hadil/mdn-web-docs-the-ultimate-developers-toolbox-5b84"
+  },
+  {
+    id: 14,
+    title: "🚀 5 Essential Development Principles Every Coder Should Know",
+    description: "An article about 5 Essential Development Principles Every Coder Should Know.",
+    image: "/imgs/article14.jpg?height=200&width=300",
+    link: "https://dev.to/hadil/5-essential-development-principles-every-coder-should-know-2m8m"
+  },
+  {
     id: 13,
     title: "20 Essential Tips for Full-Stack Developers: Level Up Your Skills! 🚀",
     description: "An article about 20 Essential Tips for Full-Stack Developers.",
