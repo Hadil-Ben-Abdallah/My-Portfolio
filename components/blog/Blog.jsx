@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 17,
+    title: "🎯 The Art of Writing Awesome Commit Messages: Why It Matters and How to Nail It",
+    description: "An article about the art of writing awesome commit messages.",
+    image: "/imgs/article17.png?height=200&width=300",
+    link: "https://dev.to/hadil/the-art-of-writing-awesome-commit-messages-why-it-matters-and-how-to-nail-it-3jm2"
+  },
+  {
     id: 16,
     title: "20 Must-Have VS Code Extensions for Web Developers 🚀💻",
     description: "An article about the best 20 VS Code extensions for web developers.",
