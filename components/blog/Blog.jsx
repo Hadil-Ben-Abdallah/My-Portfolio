@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 16,
+    title: "20 Must-Have VS Code Extensions for Web Developers 🚀💻",
+    description: "An article about the best 20 VS Code extensions for web developers.",
+    image: "/imgs/article16.jpg?height=200&width=300",
+    link: "https://dev.to/hadil/20-must-have-vs-code-extensions-for-web-developers-5fg7"
+  },
+  {
     id: 15,
     title: "🕸️ MDN Web Docs: The Ultimate Developer's Toolbox 🌟",
     description: "An article about MDN Web Docs, the real treasure for every developer who's looking for a good source to learn.",
