@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 18,
+    title: "🧹 The Art of Writing Clean Code: Why It Matters and How to Do It",
+    description: "An article about the importance of writing clean code.",
+    image: "/imgs/article18.png?height=200&width=300",
+    link: "https://dev.to/hadil/the-art-of-writing-clean-code-why-it-matters-and-how-to-do-it-6ll"
+  },
+  {
     id: 17,
     title: "🎯 The Art of Writing Awesome Commit Messages: Why It Matters and How to Nail It",
     description: "An article about the art of writing awesome commit messages.",
