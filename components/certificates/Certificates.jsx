@@ -11,6 +11,7 @@ const Certificates = () => {
     { id: 5, name: 'Certificate 5', image: '/imgs/50_days_badge.png' },
     { id: 6, name: 'Certificate 6', image: '/imgs/ScrumforOpsandDevOpsFundamentals.jpg' },
     { id: 7, name: 'Certificate 7', image: '/imgs/NegotiationAssociate.jpg' },
+    { id: 8, name: 'Certificate 8', image: '/imgs/topreaderbadge.png' },
   ];
 
   return (
