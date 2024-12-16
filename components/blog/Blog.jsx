@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 19,
+    title: "Level Up Your Python Skills with These Fun Coding Games! 🎮🐍",
+    description: "An article about amazing Python and coding games.",
+    image: "/imgs/article19.png?height=200&width=300",
+    link: "https://dev.to/hadil/level-up-your-python-skills-with-these-fun-coding-games-1no7"
+  },
+  {
     id: 18,
     title: "🧹 The Art of Writing Clean Code: Why It Matters and How to Do It",
     description: "An article about the importance of writing clean code.",
@@ -187,11 +194,10 @@ const Blog = () => {
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
             <button
               key={page}
-              className={`px-3 py-2 rounded ${
-                currentPage === page
-                  ? 'bg-[#0EA5E9] text-white'
-                  : 'border border-gray-300 dark:border-gray-600'
-              }`}
+              className={`px-3 py-2 rounded ${currentPage === page
+                ? 'bg-[#0EA5E9] text-white'
+                : 'border border-gray-300 dark:border-gray-600'
+                }`}
               onClick={(e) => handlePageChange(page, e)}
             >
               {page}
