@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hadil Ben Abdallah | Software Engineer</title>
+        <title>Hardik Chotaliya | SDET</title>
       </Head>
 
       <Animation />
