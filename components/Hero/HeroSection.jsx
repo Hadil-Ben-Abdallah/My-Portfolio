@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="flex justify-center items-center max-w-2xl py-32 sm:py-48 lg:py-48">
           <div className="select-none flex flex-col justify-center items-center align-middle">
             <p className={`text-4xl text-center font-bold mb-2 sm:text-5xl `}>
-              Hello world! 👋 <br/> I&apos;m a Software Engineer 💻
+              Hello world! 👋 <br/> I&apos;m a Automation Test Engineer 💻
             </p>
             <div>
               <div className="relative w-72 h-72">
@@ -31,7 +31,7 @@ const HeroSection = () => {
               </div>
             </div>
             <p className="mt-6 text-xl text-justify leading-8 ">
-              I&apos;m Hadil Ben Abdallah. A passionate Software Engineer from Tunisia.📍 Specializing in full-stack web development. {' '}
+              I&apos;m Hardik Chotaliya. A passionate Software Development Engineer in Test [SDET] from India.📍 Specializing in Automation Framework development. {' '}
             </p>
           </div>
         </div>
