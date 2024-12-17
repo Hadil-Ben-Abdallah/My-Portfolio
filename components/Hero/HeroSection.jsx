@@ -31,7 +31,7 @@ const HeroSection = () => {
               </div>
             </div>
             <p className="mt-6 text-xl text-justify leading-8 ">
-              I&apos;m Hardik Chotaliya. A passionate Software Development Engineer in Test [SDET] from India.📍 Specializing in Automation Framework development. {' '}
+              I&apos;m Hardik Chotaliya. A passionate Automation Test Engineer from India.📍 Specializing in Automation Framework development. {' '}
             </p>
           </div>
         </div>
