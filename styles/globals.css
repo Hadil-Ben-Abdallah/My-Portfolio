@@ -208,6 +208,7 @@ a:hover {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -217,6 +218,7 @@ a:hover {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -231,6 +233,7 @@ a:hover {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-300%);
   }
@@ -245,5 +248,33 @@ a:hover {
   .scroll-sm-lg {
     animation: infinite-scroll calc(10s * 2) linear infinite;
     -webkit-animation: infinite-scroll calc(10 * 2) linear infinite;
+  }
+}
+
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.0625em;
+  font-size: 1em;
+}
+
+.skill-icon {
+  width: 55px;
+  height: 55px;
+  transition: transform 0.1s ease;
+  object-fit: contain;
+}
+
+.tagcloud--item:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .skill-icon {
+    width: 45px;
+    height: 45px;
   }
 }
