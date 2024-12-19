@@ -6,7 +6,7 @@ const Skills = () => {
     { name: 'CSS', imageSrc: '/svg/skills/css.svg' },
     { name: 'Java Script', imageSrc: '/svg/skills/javascript.svg' },
     { name: 'Bootstrap', imageSrc: '/svg/skills/bootstrap.svg' },
-    { name: 'Shadcn', imageSrc: '/svg/skills/shadcn.svg' },
+    { name: 'Bootstrap', imageSrc: '/svg/skills/tailwind.svg' },
     { name: 'React', imageSrc: '/svg/skills/react.svg' },
     { name: 'Next.js', imageSrc: '/svg/skills/nextjs.svg' },
     { name: 'Python', imageSrc: '/svg/skills/python.svg' },
