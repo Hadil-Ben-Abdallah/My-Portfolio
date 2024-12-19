@@ -23,6 +23,7 @@
     "react-icons": "^5.3.0",
     "react-tsparticles": "^2.12.2",
     "sharp": "^0.33.5",
+    "TagCloud": "^2.5.0",
     "tailwindcss": "3.3.3",
     "tsparticles": "^2.12.0",
     "vanilla-tilt": "^1.8.1"
