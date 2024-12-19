@@ -23,6 +23,7 @@ const Skills = () => {
     { name: 'GitLab', imageSrc: '/svg/skills/markdown.svg' },
     { name: 'VSCode', imageSrc: '/svg/skills/vscode.svg' },
     { name: 'Notion', imageSrc: '/svg/skills/notion.svg' },
+    { name: 'Notion', imageSrc: '/svg/skills/slack.svg' },
   ];
   const skillstext = `These are the essential tools, libraries, and frameworks that
           constitute my current tech stack, enabling me to develop robust and
