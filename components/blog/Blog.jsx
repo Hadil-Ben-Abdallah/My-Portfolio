@@ -134,10 +134,10 @@ const blogPosts = [
   },
   {
     id: 1,
-    title: "11 amazing games to master CSS in a fun way 🎮🔥",
-    description: "In this article I highlighted 11 amazing CSS games you can play. Either you are a beginner or an expert, you will enjoy playing these games.",
+    title: "🔀 WebdriverIO v7 to v8 Migration Guide",
+    description: "A comprehensive guide to help you smoothly transition from WebdriverIO v7 to v8, covering all the essential changes and updates.",
     image: "/imgs/article1.png?height=200&width=300",
-    link: "https://dev.to/hadil/11-amazing-games-to-master-css-in-a-fun-may-36ph"
+    link: "https://hardikchotaliya.hashnode.dev/webdriverio-v7-to-v8-migration-guide"
   },
 ]
 
