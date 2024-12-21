@@ -60,7 +60,7 @@ const About = () => {
     []
   );
   const aboutText = 
-      `As a full-stack software engineer, I specialize in creating high-performance web applications that are both visually engaging and scalable. With expertise in modern frameworks like React, Next.js, and Django, I build intuitive, responsive front-end interfaces, while ensuring robust and secure back-end systems. I focus on writing clean, maintainable code and prioritize performance, reliability, and scalability in every project. Collaboration and communication are key to my process, and I’m dedicated to delivering solutions that exceed expectations and drive long-term value.`;
+      `A results-driven Automation Test Engineer focused on delivering high-quality software through effective test automation strategies. Proficient in developing and maintaining robust test frameworks using tools like WebDriverIO, Selenium and various programming languages like JavaScript/TypeScript. Passionate about continuous improvement and ensuring seamless integration of testing within the CI/CD pipeline.`;
   return useMemo(
     () => (
       <div id="about" className={`${styles['about-container']}`}>
@@ -70,17 +70,17 @@ const About = () => {
             <HyperOne value={'About Me'} />
             <h2 className="text-2xl">
               {' '}
-              Junior Full-stack software Engineer 
+              Automation Test Engineer 
             </h2>
             <p className="text-xl text-justify">{aboutText}</p>
             <div className={`${styles.personalInfo}`}>
               <div>
                 <span className="font-bold">Full Name:</span>
-                <span>Hadil Ben Abdallah</span>
+                <span>Hardik Chotaliya</span>
               </div>
               <div>
                 <span className="font-bold">Email:</span>
-                <span>hadilbenabdallah111@gmail.com</span>
+                <span>hardikchotaliya26@gmail.com</span>
               </div>
               <div>
                 <span className="font-bold">Field:</span>
@@ -117,7 +117,7 @@ const About = () => {
               </div>
             </div>
             <div className={styles.subject}>
-              <div className={styles.subject}>Web Development</div>
+              <div className={styles.subject}>Automation Testing</div>
               <div className={styles['progress-bar']}>
                 <div
                   ref={ref2}

@@ -6,7 +6,7 @@ const MyImage = () => {
       height={853}
       width={1280}
       alt="Coding Image"
-      src={'/imgs/coding.gif'}
+      src={'/imgs/aboutMe.png'}
       loading="lazy"
     />
   );

@@ -42,20 +42,20 @@ export default function MyApp({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="I'm a Frontend Developer with 2 Years Experience of Self Learning and Projects Experience,"
+          content="I'm a Automation Test Engineer with 10 Years Experience of Self Learning and Projects Experience,"
         />
-        <meta name="copyright" content="Hadil Ben Abdallah" />
+        <meta name="copyright" content="Hardik Chotaliya" />
         <meta
           name="keywords"
-          content="Hadil, Hadil Ben Abdallah, hadilbenabdallah, Ben Abdallah, Abdallah, frontend, Front-end, backend, Back-end, fullstack, Full-stack, engineer, Engineer, React, Reactjs, Next, Next.js, Web, webdeveloper, freelancer, uiux, designer, bussiness, web3, PWA, performance, SEO, Optimization"
+          content="Hardik, Hardik Chotaliya, Hardik Bharat Chotaliya, hardikchotaliya, Chotaliya, tester, QA, Automation Test engineer, Automation, Test engineer, SDET, Automation Engineer, frontend, Front-end, backend, Back-end, fullstack, Full-stack, engineer, Engineer, freelancer, uiux, designer, bussiness, web3, PWA, performance, Optimization"
         />
-        <meta name="author" content="Hadil Ben Abdallah" />
-        <meta property="og:title" content="Hadil Ben Abdallah Software Engineer" />
+        <meta name="author" content="Hardik Chotaliya" />
+        <meta property="og:title" content="Hardik Chotaliya Automation Test Engineer" />
         <meta
           property="og:description"
-          content="Hello My Name is Hadil Ben Abdallah, I'm a Software Engineer specalize in Full Stack development"
+          content="Hello My Name is Hardik Chotaliya, I'm a Automation Test Engineer specalize in Automation Framework Development"
         />
-        <meta property="og:url" content="https://hadilbenabdallah.vercel.app/" />
+        <meta property="og:url" content="https://hardikchotaliya.vercel.app/" />
         <meta name="robots" content="all" />
       </Head>
       <style jsx global>{`

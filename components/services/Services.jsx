@@ -32,7 +32,7 @@ const cards = [
 ];
 
 const Services = () => {
-  const breif = `As a full-stack software engineer, I specialize in building robust, responsive web applications from front-end interfaces to back-end systems and APIs. With expertise in modern web frameworks, clean code practices, and a focus on performance and scalability, I deliver seamless user experiences while ensuring reliable, high-quality functionality on both the client and server side.`;
+  const breif = `As an Automation Test Engineer, I provide comprehensive test automation services, including framework development, test script creation, and CI/CD integration. With expertise in leading automation tools and a focus on efficiency and reliability, I deliver robust testing solutions that ensure high-quality software and faster release cycles.`;
   return (
     <div id="services">
       <HyperOne value={'Services'} />

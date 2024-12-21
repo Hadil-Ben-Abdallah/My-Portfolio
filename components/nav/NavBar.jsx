@@ -38,7 +38,7 @@ export default function NavBar() {
             <div className="flex-shrink-0">
               <Link href="#home" onClick={handleLogoClick}>
                 <h3
-                  aria-label="Hadil Ben Abdallah"
+                  aria-label="Hardik Chotaliya"
                   className="text-sky-600 text-3xl font-bold"
                 >
                   HADIL<span className="text-white text-3xl font-bold">.</span>DEV

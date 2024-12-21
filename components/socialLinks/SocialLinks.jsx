@@ -14,31 +14,31 @@ const SocialLinks = () => {
     {
       id: 1,
       ariaLabel: 'linkedin',
-      href: 'https://www.linkedin.com/in/hadil-ben-abdallah/',
+      href: 'https://www.linkedin.com/in/hardikchotaliya/',
       icon: AiFillLinkedin,
     },
     {
       id: 2,
       ariaLabel: 'github',
-      href: 'https://github.com/Hadil-Ben-Abdallah',
+      href: 'https://github.com/hardikchotaliya',
       icon: AiFillGithub,
     },
     {
       id: 3,
       ariaLabel: 'dailydev',
-      href: 'https://app.daily.dev/hadilbenabdallah',
+      href: 'https://app.daily.dev/hardikchotaliya',
       icon: SiDailydotdev,
     },
     {
       id: 4,
       ariaLabel: 'codepen',
-      href: 'https://codepen.io/Hadil-Ben-Abdallah',
+      href: 'https://codepen.io/Hardik-Chotaliya',
       icon: AiOutlineCodepen,
     },
     {
       id: 5,
       ariaLabel: 'leetcode',
-      href: 'https://leetcode.com/u/hadilbenabdallah/',
+      href: 'https://leetcode.com/u/hardikchotaliya/',
       icon: TbBrandLeetcode,
     },
   ];

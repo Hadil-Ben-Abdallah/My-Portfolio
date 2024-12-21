@@ -1,0 +1,43 @@
+To run this Next.js application, you'll need to follow these steps: [1]
+
+First, make sure you have all the dependencies installed. In your project directory, run:
+
+npm install
+
+Copy
+
+Insert at cursor
+bash
+For development mode (with hot-reload), run:
+
+npm run dev
+
+Copy
+
+Insert at cursor
+bash
+For production mode, you'll need to:
+
+# First build the application
+npm run build
+
+# Then start the production server
+npm start
+
+Copy
+
+Insert at cursor
+bash
+After running one of these commands, your application should be accessible at localhost:3000 by default.
+
+Some additional tips:
+
+Make sure you have Node.js installed on your system
+
+The development mode ( npm run dev) is recommended during development as it provides features like hot reloading
+
+Your project should have a package.json file with these scripts defined
+
+If you encounter any errors, check if all the imported components (Animation, HeroSection, Skills, etc.) exist in your project structure
+
+Looking at your index.js file, it appears to be a portfolio website with multiple sections including Hero, About, Services, Skills, Projects, Blog, and more. The development server will help you see all these components rendered together on the page.
