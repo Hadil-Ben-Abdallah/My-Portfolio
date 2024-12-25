@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import HyperOne from '../customH1/HyperOne';
@@ -7,139 +7,258 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 31,
+    title: 'Discover 5 Hidden Chrome DevTools Features for QA 🕵️‍♂️🔧',
+    description:
+      'This article provides insights into hidden Chrome DevTools features every QA should know.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://www.linkedin.com/pulse/5-hidden-chrome-devtools-features-every-qasdet-must-know-chotaliya-yizof/',
+  },
+  {
+    id: 30,
+    title: 'Write Effective Commit Messages for QA Engineers 📝🔧',
+    description:
+      'This article provides tips on writing effective commit messages for QA engineers.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/commit-messages-for-qa-engineers',
+  },
+  {
+    id: 29,
+    title: 'Enhance QA with Responsively App for Responsive Testing 📱🔍',
+    description:
+      'This article recommends using Responsively App for QA responsive testing.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/responsively-app-for-qa-responsive-testing',
+  },
+  {
+    id: 28,
+    title: 'Craft the Perfect Tech Resume 📝💼',
+    description:
+      'This article provides tips on creating an outstanding tech resume.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/craft-perfect-tech-resume',
+  },
+  {
+    id: 27,
+    title: 'Master Test Data Generation Tools for QA Testing 🛠️🔍',
+    description:
+      'This article provides tips and plugins for mastering test data generation.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/mastering-test-data-generation-tools-tips-plugins-for-qa-testing',
+  },
+  {
+    id: 26,
+    title: '🧠 Understand Behavior Driven Development (BDD)',
+    description:
+      'This article provides an overview of Behavior Driven Development (BDD).',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/what-is-behavior-driven-development-bdd',
+  },
+  {
+    id: 25,
+    title: '📧 Automate Email Reports for Failures Effortlessly ⚙️',
+    description:
+      'This article covers how to send email reports for automation failures.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/send-email-report-automation-failures',
+  },
+  {
+    id: 24,
+    title: '📋 Enhance Console Logging: Global Log Wrapper in WebdriverIO',
+    description:
+      'An article about enhancing console logging with a global log wrapper in WebdriverIO.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/enhance-console-logging-global-log-wrapper-webdriverio',
+  },
+  {
+    id: 23,
+    title:
+      '🔧 WebdriverIO Configuration Guide: Setting Up Your Test Automation Framework',
+    description:
+      'An article about configuring WebdriverIO for your test automation framework.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/webdriverio-configuration-guide-setting-up-your-test-automation-framework',
+  },
+  {
+    id: 22,
+    title: '🛠️ The Ultimate Toolset for Becoming a Top 1% SDET',
+    description:
+      'An article about essential tools for developing a test automation framework.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/the-ultimate-toolset-for-becoming-a-top-1-sdet-must-have-tools-before-developing-a-test-automation-framework',
+  },
+  {
+    id: 21,
+    title: '🚀 WebdriverIO v9: Features & Updates 2024',
+    description:
+      'An article about the new features and updates in WebdriverIO v9 for 2024.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/webdriverio-v9-features-updates-2024',
+  },
+  {
+    id: 20,
+    title: '🌐 WebDriver BiDi: Browser Automation Protocol Guide',
+    description:
+      'An article about using the WebDriver BiDi protocol for browser automation.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/webdriver-bidi-browser-automation-protocol-guide',
+  },
+  {
     id: 19,
-    title: "Level Up Your Python Skills with These Fun Coding Games! 🎮🐍",
-    description: "An article about amazing Python and coding games.",
-    image: "/imgs/article19.png?height=200&width=300",
-    link: "https://dev.to/hadil/level-up-your-python-skills-with-these-fun-coding-games-1no7"
+    title: '🛒 Image Testing & Optimization: E-commerce Guide',
+    description:
+      'An article about optimizing and testing images for e-commerce platforms.',
+    image: '/imgs/article19.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/image-testing-optimization-ecommerce-guide',
   },
   {
     id: 18,
-    title: "🧹 The Art of Writing Clean Code: Why It Matters and How to Do It",
-    description: "An article about the importance of writing clean code.",
-    image: "/imgs/article18.png?height=200&width=300",
-    link: "https://dev.to/hadil/the-art-of-writing-clean-code-why-it-matters-and-how-to-do-it-6ll"
+    title: '🌐 Mastering Browser Architecture for QA Testers',
+    description:
+      'An article about understanding and mastering browser architecture for QA testers.',
+    image: '/imgs/article18.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/mastering-browser-architecture-for-qa-testers',
   },
   {
     id: 17,
-    title: "🎯 The Art of Writing Awesome Commit Messages: Why It Matters and How to Nail It",
-    description: "An article about the art of writing awesome commit messages.",
-    image: "/imgs/article17.png?height=200&width=300",
-    link: "https://dev.to/hadil/the-art-of-writing-awesome-commit-messages-why-it-matters-and-how-to-nail-it-3jm2"
+    title: '📈 Load & Performance Testing: Gatling Recorder Guide',
+    description:
+      'An article about using Gatling Recorder for load and performance testing.',
+    image: '/imgs/article17.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/load-performance-testing-gatling-recorder-guide',
   },
   {
     id: 16,
-    title: "20 Must-Have VS Code Extensions for Web Developers 🚀💻",
-    description: "An article about the best 20 VS Code extensions for web developers.",
-    image: "/imgs/article16.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/20-must-have-vs-code-extensions-for-web-developers-5fg7"
+    title: '💻 Install Gatling on Mac: VS Code & Scala Guide',
+    description:
+      'An article about installing Gatling on Mac using VS Code and Scala.',
+    image: '/imgs/article16.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/install-gatling-mac-vs-code-scala-guide',
   },
   {
     id: 15,
-    title: "🕸️ MDN Web Docs: The Ultimate Developer's Toolbox 🌟",
-    description: "An article about MDN Web Docs, the real treasure for every developer who's looking for a good source to learn.",
-    image: "/imgs/article15.png?height=200&width=300",
-    link: "https://dev.to/hadil/mdn-web-docs-the-ultimate-developers-toolbox-5b84"
+    title: '🔐 Automate Basic Authentication Popups: WebdriverIO Guide',
+    description:
+      'An article about automating basic authentication popups using WebdriverIO.',
+    image: '/imgs/article15.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/automate-basic-authentication-popups-webdriverio-guide',
   },
   {
     id: 14,
-    title: "🚀 5 Essential Development Principles Every Coder Should Know",
-    description: "An article about 5 Essential Development Principles Every Coder Should Know.",
-    image: "/imgs/article14.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/5-essential-development-principles-every-coder-should-know-2m8m"
+    title: '🖼️ WebdriverIO Image Validation: Automate Broken Images',
+    description:
+      'An article about automating image validation and detecting broken images using WebdriverIO.',
+    image: '/imgs/article14.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/webdriverio-image-validation-automate-broken-images',
   },
   {
     id: 13,
-    title: "20 Essential Tips for Full-Stack Developers: Level Up Your Skills! 🚀",
-    description: "An article about 20 Essential Tips for Full-Stack Developers.",
-    image: "/imgs/article13.jpeg?height=200&width=300",
-    link: "https://dev.to/hadil/20-essential-tips-for-full-stack-developers-level-up-your-skills-4ehi"
+    title: '🚀 Performance Testing with WebdriverIO: A Guide',
+    description: 'An article about performance testing using WebdriverIO.',
+    image: '/imgs/article13.jpeg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/performance-testing-webdriverio-guide',
   },
   {
     id: 12,
-    title: "🚀 React.js vs. Next.js: The Ultimate Showdown! 💥",
-    description: "A deep comparaison between React.js and Next.js, the two most popular JavaScript frameworks.",
-    image: "/imgs/article12.png?height=200&width=300",
-    link: "https://dev.to/hadil/reactjs-vs-nextjs-the-ultimate-showdown-432c"
+    title: '📅 QA Lead Daily Tasks: Ensuring Software Quality',
+    description:
+      'An article about the daily tasks of a QA lead to ensure software quality.',
+    image: '/imgs/article12.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/qa-lead-daily-tasks-software-quality',
   },
   {
     id: 11,
-    title: "✈️ Plane: The Project Management Tool That'll Make You Say \"Oh, Ship!\" 🚀",
-    description: "An article about Plane, the open-source project management tool.",
-    image: "/imgs/article11.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/plane-the-project-management-tool-thatll-make-you-say-oh-ship-4512"
+    title:
+      '🔀 The Ultimate Guide to Naming Git Branches: Best Practices and Tips',
+    description:
+      'An article about best practices and tips for naming Git branches.',
+    image: '/imgs/article11.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/the-ultimate-guide-to-naming-git-branches-best-practices-and-tips',
   },
   {
     id: 10,
-    title: "🎨 shadcn: The Rebel Without a Cause in the UI Framework World 🚀",
-    description: "An article about shadcn, the open-source UI framework.",
-    image: "/imgs/article10.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/shadcn-the-rebel-without-a-cause-in-the-ui-framework-world-pm7"
+    title:
+      '🌐 How to Set Up a World Object: Seamlessly Exchange Data Between Steps in WebdriverIO TypeScript Cucumber Automation Framework',
+    description:
+      'An article about setting up a World object to exchange data between steps in WebdriverIO TypeScript Cucumber frameworks.',
+    image: '/imgs/article10.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/how-to-set-up-a-world-object-seamlessly-exchange-data-between-steps-in-webdriverio-typescript-cucumber-automation-framework',
   },
   {
     id: 9,
-    title: "🚀 Git and GitHub: Your Ticket to Time Travel and Collaboration! 🕰️👥",
-    description: "An article about Git and GitHub.",
-    image: "/imgs/article9.png?height=200&width=300",
-    link: "https://dev.to/hadil/git-and-github-your-ticket-to-time-travel-and-collaboration-kaj"
+    title:
+      '🔍 Understanding the Difference Between Data Tables and Scenario Outlines in BDD Framework',
+    description:
+      'An article about the differences between data tables and scenario outlines in BDD frameworks.',
+    image: '/imgs/article9.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/understanding-the-difference-between-data-tables-and-scenario-outlines-in-bdd-framework',
   },
   {
     id: 8,
-    title: "🚀 The Ultimate Guide to DOs and DON'Ts for Software Developers 🛠️",
-    description: "An article contains some important advices for software developers.",
-    image: "/imgs/article8.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/the-ultimate-guide-to-dos-and-donts-for-software-developers-2o34"
+    title:
+      '🔧 Setting Up a .env Environment File for WebdriverIO TypeScript Framework',
+    description:
+      'An article about setting up a .env environment file in WebdriverIO TypeScript frameworks.',
+    image: '/imgs/article8.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/setting-up-a-env-environment-file-for-webdriverio-typescript-framework',
   },
   {
     id: 7,
-    title: "Notion: Your Digital Swiss Army Knife 🇨🇭🔪",
-    description: "An article about Notion, the productivity and note-taking web application.",
-    image: "/imgs/article7.png?height=200&width=300",
-    link: "https://dev.to/hadil/notion-your-digital-swiss-army-knife-4407"
+    title:
+      '📋 A Complete Guide to Setting Up Logging in WebdriverIO Frameworks',
+    description:
+      'An article about setting up effective logging in WebdriverIO frameworks.',
+    image: '/imgs/article7.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/a-complete-guide-to-setting-up-logging-in-webdriverio-frameworks',
   },
   {
     id: 6,
-    title: "v0.dev: Your New Favorite Playground for UI Development 🔥🚀",
-    description: "An article about the v0.dev, the new AI tool for UI Development.",
-    image: "/imgs/article6.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/v0dev-your-new-favorite-playground-for-ui-development-59oa"
+    title: '🐞 Efficient Bug Tracking in Jira: A Guide',
+    description: 'An article about efficient bug tracking practices in Jira.',
+    image: '/imgs/article6.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/efficient-bug-tracking-in-jira-guide',
   },
   {
     id: 5,
-    title: "🧠 Level Up Your Coding Skills: The Problem-Solving Adventure! 🚀",
-    description: "This article covers the importance of problem-solving, and recommends several popular problem-solving websites.",
-    image: "/imgs/article5.png?height=200&width=300",
-    link: "https://dev.to/hadil/level-up-your-coding-skills-the-problem-solving-adventure-3oc2"
+    title: '🧹 Automation Testing Best Practices: Clean Code',
+    description:
+      'An article about best practices for writing clean code in automation testing.',
+    image: '/imgs/article5.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/automation-testing-best-practices-clean-code',
   },
   {
     id: 4,
-    title: "📚 Unleash Your Inner Code Wizard with Free Programming Books! 🧙‍♂️💻",
-    description: "This article recommends Books.Goalkicker.com website which is a real treasure for anyone who's looking for a good source to learn a new programming language.",
-    image: "/imgs/article4.jpg?height=200&width=300",
-    link: "https://dev.to/hadil/unleash-your-inner-code-wizard-with-free-programming-books-30pn"
+    title: '📝 Test Case Naming Convention for Automation Frameworks',
+    description:
+      'An article about effective test case naming conventions for automation frameworks.',
+    image: '/imgs/article4.jpg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/test-case-naming-convention-for-automation-frameworks',
   },
   {
     id: 3,
-    title: "What is Git ? 🤔",
-    description: "This article will provide you with a comprehensive understanding of Git.",
-    image: "/imgs/article3.jpeg?height=200&width=300",
-    link: "https://dev.to/hadil/what-is-git--51j9"
+    title:
+      '🎭 Unleashing the Power of BDD: Writing Effective Scenarios Beyond the UI',
+    description:
+      'An article about writing effective BDD scenarios beyond the UI.',
+    image: '/imgs/article3.jpeg?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/unleashing-the-power-of-bdd-writing-effective-scenarios-beyond-the-ui',
   },
   {
     id: 2,
-    title: "The Difference Between Visual Studio and Visual Studio Code 💻",
-    description: "In this article I highlighted the difference between 'Visual Studio' and 'Visual Studio Code'.",
-    image: "/imgs/article2.png?height=200&width=300",
-    link: "https://dev.to/hadil/the-difference-between-visual-studio-vs-visual-studio-code-35oh"
+    title: '🛠️ QA Automation: Challenges and Solutions',
+    description:
+      'An article about common QA automation challenges and solutions.',
+    image: '/imgs/article2.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/qa-automation-challenges-and-solutions',
   },
   {
     id: 1,
-    title: "🔀 WebdriverIO v7 to v8 Migration Guide",
-    description: "A comprehensive guide to help you smoothly transition from WebdriverIO v7 to v8, covering all the essential changes and updates.",
-    image: "/imgs/article1.png?height=200&width=300",
-    link: "https://hardikchotaliya.hashnode.dev/webdriverio-v7-to-v8-migration-guide"
+    title: '🔀 WebdriverIO v7 to v8 Migration Guide',
+    description: 'A guide to transitioning from WebdriverIO v7 to v8.',
+    image: '/imgs/article1.png?height=200&width=300',
+    link: 'https://hardikchotaliya.hashnode.dev/webdriverio-v7-to-v8-migration-guide',
   },
-]
+];
 
 const POSTS_PER_PAGE = 6;
 
@@ -194,10 +313,11 @@ const Blog = () => {
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
             <button
               key={page}
-              className={`px-3 py-2 rounded ${currentPage === page
-                ? 'bg-[#0EA5E9] text-white'
-                : 'border border-gray-300 dark:border-gray-600'
-                }`}
+              className={`px-3 py-2 rounded ${
+                currentPage === page
+                  ? 'bg-[#0EA5E9] text-white'
+                  : 'border border-gray-300 dark:border-gray-600'
+              }`}
               onClick={(e) => handlePageChange(page, e)}
             >
               {page}
