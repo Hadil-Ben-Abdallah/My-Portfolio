@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 21,
+    title: "🎮 Level Up Your JavaScript Skills with These Fun Games! 🕹️",
+    description: "An article about amazing JavaScript coding games.",
+    image: "/imgs/article21.png?height=200&width=300",
+    link: "https://dev.to/hadil/level-up-your-javascript-skills-with-these-fun-games-2a7f"
+  },
+  {
     id: 20,
     title: "🐒🍌CodeMonkey: Turning Kids into Coding Ninjas! 💻🎮",
     description: "An article about CodeMonkey, the coding game for kids.",
