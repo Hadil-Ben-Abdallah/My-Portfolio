@@ -7,6 +7,13 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
+    id: 22,
+    title: "Exploring Better Alternatives to console.log in JavaScript 🚀✨",
+    description: "An article about better alternatives to console.log in JavaScript.",
+    image: "/imgs/article22.png?height=200&width=300",
+    link: "https://dev.to/hadil/exploring-better-alternatives-to-consolelog-in-javascript-497e"
+  },
+  {
     id: 21,
     title: "🎮 Level Up Your JavaScript Skills with These Fun Games! 🕹️",
     description: "An article about amazing JavaScript coding games.",
