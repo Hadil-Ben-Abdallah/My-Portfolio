@@ -7,7 +7,7 @@ import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
-    id: 23,
+    id: 24,
     title: "🚀 The Ultimate List of 27 Frontend Libraries for Creative Developers",
     description: "An article about the best frontend libraries for creative developers.",
     image: "/imgs/article24.png?height=200&width=300",
