@@ -186,6 +186,12 @@ const Blog = () => {
       event.preventDefault();
     }
     setCurrentPage(newPage);
+
+    // Scroll to the top of the blog section
+    const blogSection = document.getElementById('blog');
+    if (blogSection) {
+      blogSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   useEffect(() => {
@@ -199,7 +205,8 @@ const Blog = () => {
   }, [currentPage]);
 
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
-  const visiblePosts = blogPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+  const endIndex = startIndex + POSTS_PER_PAGE;
+  const visiblePosts = blogPosts.slice(startIndex, endIndex);
 
   const blogText = `Sharing knowledge through writing is a passion of mine, as it allows me to reflect on my learning journey and help others along the way. Below are some of my articles on programming, where I explore key concepts and trends.`;
 
