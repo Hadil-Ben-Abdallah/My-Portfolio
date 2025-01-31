@@ -8,6 +8,13 @@ import React, { useEffect } from 'react';
 const blogPosts = [
   {
     id: 23,
+    title: "🚀 The Ultimate List of 27 Frontend Libraries for Creative Developers",
+    description: "An article about the best frontend libraries for creative developers.",
+    image: "/imgs/article24.png?height=200&width=300",
+    link: "https://dev.to/hadil/the-ultimate-list-of-27-frontend-libraries-for-creative-developers-15go"
+  },
+  {
+    id: 23,
     title: "How to Become a Monster Problem Solver: The Ultimate Guide 👹",
     description: "An article about how to think like a problem solver.",
     image: "/imgs/article23.png?height=200&width=300",
