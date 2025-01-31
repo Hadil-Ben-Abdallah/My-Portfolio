@@ -121,7 +121,7 @@ import About from '@/components/about/About';
 import ContactMe from '@/components/contact/ContactMe';
 import Footer from '@/components/footer/Footer';
 import Offer from '@/components/offer/Offer';
-import Portfolio from '@/components/projects/Portfolio'; // Changed this line
+import Portfolio from '@/components/projects/Portfolio';
 import Services from '@/components/services/Services';
 import Certificates from './../components/certificates/Certificates';
 import Blog from '@/components/blog/Blog';
