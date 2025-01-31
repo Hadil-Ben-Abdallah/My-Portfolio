@@ -1,9 +1,8 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import HyperOne from '../customH1/HyperOne';
 import BlogCard from './BlogCard';
-import React, { useEffect } from 'react';
 
 const blogPosts = [
   {
