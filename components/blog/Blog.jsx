@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 25,
+    title: "10 No-Code Tools for Developers in 2025 (with Best Use Cases) 🔥",
+    description: "An article about the best no-code tools for developers.",
+    image: "/imgs/article25.png?height=200&width=300",
+    link: "https://dev.to/favtutor/10-no-code-tools-for-developers-in-2025-with-best-use-cases-26lk"
+  },
+  {
     id: 24,
     title: "🚀 The Ultimate List of 27 Frontend Libraries for Creative Developers",
     description: "An article about the best frontend libraries for creative developers.",
