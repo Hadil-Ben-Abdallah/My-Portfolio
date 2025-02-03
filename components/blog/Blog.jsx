@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 26,
+    title: "How to Run DeepSeek Locally: A Simple Guide to Your Personal AI 🐋",
+    description: "An article about how to run DeepSeek locally.",
+    image: "/imgs/article26.jpeg?height=200&width=300",
+    link: "https://dev.to/hadil/how-to-run-deepseek-locally-a-simple-guide-to-your-personal-ai-5613"
+  },
+  {
     id: 25,
     title: "10 No-Code Tools for Developers in 2025 (with Best Use Cases) 🔥",
     description: "An article about the best no-code tools for developers.",
