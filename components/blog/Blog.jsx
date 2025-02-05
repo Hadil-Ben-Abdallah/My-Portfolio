@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 27,
+    title: "🦊 React-Fox-Toast: A Silent but Powerful Presence in Your UI",
+    description: "An article about React-Fox-Toast, a lightweight and silent React component for creating toast notifications.",
+    image: "/imgs/article27.png?height=200&width=300",
+    link: "https://dev.to/hadil/react-fox-toast-a-silent-but-powerful-presence-in-your-ui-4k9c"
+  },
+  {
     id: 26,
     title: "How to Run DeepSeek Locally: A Simple Guide to Your Personal AI 🐋",
     description: "An article about how to run DeepSeek locally.",
