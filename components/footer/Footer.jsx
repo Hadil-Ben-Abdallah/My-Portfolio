@@ -5,6 +5,7 @@ import {
 } from 'react-icons/ai';
 import { TbBrandLeetcode } from "react-icons/tb";
 import { SiDailydotdev } from "react-icons/si";
+import { FaDev } from "react-icons/fa";
 import Anchor from '../link/Anchor';
 
 export default function Footer() {
@@ -23,9 +24,9 @@ export default function Footer() {
     },
     {
       id: 3,
-      ariaLabel: 'dailydev',
-      href: 'https://app.daily.dev/hadilbenabdallah',
-      icon: <SiDailydotdev size={40} />,
+      ariaLabel: 'dev.to',
+      href: 'https://dev.to/hadil',
+      icon: <FaDev size={40} />,
     },
     {
       id: 4,
