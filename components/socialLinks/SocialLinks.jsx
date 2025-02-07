@@ -6,6 +6,7 @@ import {
 } from 'react-icons/ai';
 import { TbBrandLeetcode } from "react-icons/tb";
 import { SiDailydotdev } from "react-icons/si";
+import { FaDev } from "react-icons/fa";
 import styles from './social.module.css';
 import Anchor from '../link/Anchor';
 
@@ -25,9 +26,9 @@ const SocialLinks = () => {
     },
     {
       id: 3,
-      ariaLabel: 'dailydev',
-      href: 'https://app.daily.dev/hadilbenabdallah',
-      icon: SiDailydotdev,
+      ariaLabel: 'dev.to',
+      href: 'https://dev.to/hadil',
+      icon: FaDev,
     },
     {
       id: 4,
