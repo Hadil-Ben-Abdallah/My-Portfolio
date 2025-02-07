@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 28,
+    title: "15 Delightful Clean Code Rules That Will Make Your Code Sparkle ✨",
+    description: "An article about 15 Delightful Clean Code Rules That Will Make Your Code Sparkle.",
+    image: "/imgs/article28.png?height=200&width=300",
+    link: "https://dev.to/hadil/15-delightful-clean-code-rules-that-will-make-your-code-sparkle-30g7"
+  },
+  {
     id: 27,
     title: "🦊 React-Fox-Toast: A Silent but Powerful Presence in Your UI",
     description: "An article about React-Fox-Toast, a lightweight and silent React component for creating toast notifications.",
