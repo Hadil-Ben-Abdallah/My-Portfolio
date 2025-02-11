@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 29,
+    title: "How to Structure a React App Like a Pro 🔥",
+    description: "An article about how to structure a React app like a pro.",
+    image: "/imgs/article29.png?height=200&width=300",
+    link: "https://dev.to/hadil/how-to-structure-a-react-app-like-a-pro-20b9"
+  },
+  {
     id: 28,
     title: "15 Delightful Clean Code Rules That Will Make Your Code Sparkle ✨",
     description: "An article about 15 Delightful Clean Code Rules That Will Make Your Code Sparkle.",
