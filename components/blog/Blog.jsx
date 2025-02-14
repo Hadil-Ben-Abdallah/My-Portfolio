@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 30,
+    title: "15 Must-Have Chrome Extensions for Web Developers in 2025 🔥",
+    description: "An article about the best 15 Chrome extensions for web developers.",
+    image: "/imgs/article30.png?height=200&width=300",
+    link: "https://dev.to/favtutor/15-must-have-chrome-extensions-for-web-developers-in-2025-88i"
+  },
+  {
     id: 29,
     title: "How to Structure a React App Like a Pro 🔥",
     description: "An article about how to structure a React app like a pro.",
