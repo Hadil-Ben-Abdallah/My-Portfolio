@@ -14,6 +14,7 @@ const Certificates = () => {
     { id: 8, name: 'Certificate 8', image: '/imgs/topreaderbadge.png' },
     { id: 9, name: 'Certificate 9', image: '/imgs/100_days_badge.png' },
     { id: 10, name: 'Certificate 10', image: '/imgs/novembertopreader.png' },
+    { id: 11, name: 'Certificate 11', image: '/imgs/50_days_2025.png' },
   ];
 
   return (
@@ -22,19 +23,19 @@ const Certificates = () => {
       <div className="relative mt-8 overflow-hidden">
         {/* Applying different animation speeds based on screen size */}
         <ul className="flex gap-8 whitespace-nowrap scroll-sm-lg md:scroll-sm-md sm:scroll-sm-sm">
-  {[...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates].map((cert, index) => (
-    <li key={`${cert.id}-${index}`} className="inline-flex flex-col items-center mx-4 w-48 sm:w-56 md:w-64 flex-shrink-0">
-      <div className="relative w-full h-32 sm:h-36 md:h-60">
-        <Image
-          src={cert.image}
-          alt={cert.name}
-          layout="fill"
-          objectFit="contain"
-        />
-      </div>
-    </li>
-  ))}
-</ul>
+          {[...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates, ...certificates].map((cert, index) => (
+            <li key={`${cert.id}-${index}`} className="inline-flex flex-col items-center mx-4 w-48 sm:w-56 md:w-64 flex-shrink-0">
+              <div className="relative w-full h-32 sm:h-36 md:h-60">
+                <Image
+                  src={cert.image}
+                  alt={cert.name}
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
