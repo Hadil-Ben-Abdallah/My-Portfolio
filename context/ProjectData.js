@@ -14,4 +14,17 @@ export const PROJECTS = [
     liveTestLink: 'https://communications-and-systems.vercel.app/',
     gitLink: 'https://github.com/Hadil-Ben-Abdallah/Communications-and-systems',
   },
+  {
+    projectImage: '/imgs/project2.png',
+    headline: 'Original Fitness Club',
+    techStack: [
+      { icon: FaHtml5, color: '#E34F26' },
+      { icon: FaCss3Alt, color: '#1572B6' },
+      { icon: FaJs, color: '#F7DF1E' },
+    ],
+    description: `A dynamic web page for Original Fitness Club gym marking the start of my journey with JavaScript development.
+      Designed an engaging, user-friendly interface and implemented interactive features.`,
+    liveTestLink: 'https://originalfit.vercel.app/',
+    gitLink: 'https://github.com/Hadil-Ben-Abdallah/Gym',
+  },
 ];
