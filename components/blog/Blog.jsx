@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 31,
+    title: "AI in Web3: A Complete Guide to Decentralized Intelligence 🚀",
+    description: "An article about AI in Web3. The future of decentralized intelligence.",
+    image: "/imgs/article31.png?height=200&width=300",
+    link: "https://dev.to/hadil/ai-in-web3-a-complete-guide-to-decentralized-intelligence-4pp1"
+  },
+  {
     id: 30,
     title: "15 Must-Have Chrome Extensions for Web Developers in 2025 🔥",
     description: "An article about the best 15 Chrome extensions for web developers.",
