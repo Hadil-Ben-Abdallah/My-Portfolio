@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 32,
+    title: "Top 10 JavaScript Animation Libraries in 2025 🔥",
+    description: "An article about the best 10 JavaScript animation libraries.",
+    image: "/imgs/article32.jpg?height=200&width=300",
+    link: "https://dev.to/hadil/top-10-javascript-animation-libraries-in-2025-2ch5"
+  },
+  {
     id: 31,
     title: "AI in Web3: A Complete Guide to Decentralized Intelligence 🚀",
     description: "An article about AI in Web3. The future of decentralized intelligence.",
