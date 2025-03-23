@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 33,
+    title: "RESTful vs. GraphQL: Which One Should You Choose? 🤔",
+    description: "An article about RESTful vs. GraphQL and their differences.",
+    image: "/imgs/article33.png?height=200&width=300",
+    link: "https://dev.to/hadil/restful-vs-graphql-which-one-should-you-choose-2850"
+  },
+  {
     id: 32,
     title: "Top 10 JavaScript Animation Libraries in 2025 🔥",
     description: "An article about the best 10 JavaScript animation libraries.",
