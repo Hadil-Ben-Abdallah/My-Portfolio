@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 34,
+    title: "15 Skills Every Software Engineer Should Have in 2025 🚀",
+    description: "An article about 15 Skills Every Software Engineer Should Have in 2025.",
+    image: "/imgs/article34.png?height=200&width=300",
+    link: "https://dev.to/hadil/15-skills-every-software-engineer-should-have-in-2025-47ph"
+  },
+  {
     id: 33,
     title: "RESTful vs. GraphQL: Which One Should You Choose? 🤔",
     description: "An article about RESTful vs. GraphQL and their differences.",
