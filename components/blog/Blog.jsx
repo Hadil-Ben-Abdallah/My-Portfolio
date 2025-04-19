@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 35,
+    title: "Web3 Gaming and the Metaverse: The Future of Play and Ownership🎮",
+    description: "An article about Web3 Gaming and the Metaverse.",
+    image: "/imgs/article35.png?height=200&width=300",
+    link: "https://dev.to/hadil/web3-gaming-and-the-metaverse-the-future-of-play-and-ownership-amb"
+  },
+  {
     id: 34,
     title: "15 Skills Every Software Engineer Should Have in 2025 🚀",
     description: "An article about 15 Skills Every Software Engineer Should Have in 2025.",
