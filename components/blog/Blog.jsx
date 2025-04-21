@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 36,
+    title: "💻 40 Web Developer Questions Recruiters Actually Ask in 2025 🔥",
+    description: "An article about 40 Web Developer Interview Questions With Smart Answers.",
+    image: "/imgs/article36.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/40-web-developer-questions-recruiters-actually-ask-in-2025-aaf"
+  },
+  {
     id: 35,
     title: "Web3 Gaming and the Metaverse: The Future of Play and Ownership🎮",
     description: "An article about Web3 Gaming and the Metaverse.",
