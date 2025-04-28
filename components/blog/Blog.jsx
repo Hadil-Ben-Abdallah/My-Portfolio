@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 37,
+    title: "🚀 40 React Interview Questions Top Tech Companies Are Asking in 2025 🔥",
+    description: "An article about 40 React Interview Questions Top Tech Companies Are Asking in 2025.",
+    image: "/imgs/article37.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/40-react-interview-questions-top-tech-companies-are-asking-in-2025-26op"
+  },
+  {
     id: 36,
     title: "💻 40 Web Developer Questions Recruiters Actually Ask in 2025 🔥",
     description: "An article about 40 Web Developer Interview Questions With Smart Answers.",
