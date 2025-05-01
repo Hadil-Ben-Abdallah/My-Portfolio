@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 38,
+    title: "🐍 40 Python Interview Questions for 2025 — How Many Can You Answer? 🎯",
+    description: "An article about 40 Python Interview Questions for 2025.",
+    image: "/imgs/article38.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/40-python-interview-questions-for-2025-how-many-can-you-answer-9k6"
+  },
+  {
     id: 37,
     title: "🚀 40 React Interview Questions Top Tech Companies Are Asking in 2025 🔥",
     description: "An article about 40 React Interview Questions Top Tech Companies Are Asking in 2025.",
