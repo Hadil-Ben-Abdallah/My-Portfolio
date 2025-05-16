@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 39,
+    title: "🧠 40 System Design Questions That Could Land You a $150K Job in 2025 💰",
+    description: "An article about 40 System Design Questions That Could Land You a $150K Job in 2025.",
+    image: "/imgs/article39.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/40-system-design-questions-that-can-land-you-a-150k-job-in-2025-18j2"
+  },
+  {
     id: 38,
     title: "🐍 40 Python Interview Questions for 2025 — How Many Can You Answer? 🎯",
     description: "An article about 40 Python Interview Questions for 2025.",
