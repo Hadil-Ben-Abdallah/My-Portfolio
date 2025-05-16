@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 42,
+    title: "💻 40 Full-Stack Interview Questions Every Developer Should Prepare in 2025 🔥",
+    description: "An article about 40 Full-Stack Interview Questions you Should Prepare in 2025.",
+    image: "/imgs/article42.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/40-full-stack-interview-questions-every-developer-should-prepare-in-2025-2cdo"
+  },
+  {
     id: 41,
     title: "🚀 30 DSA Patterns You Need to Master Before Your Next Interview in 2025 🔥",
     description: "An article about 30 DSA Patterns You Need to Master Before Your Next Interview in 2025.",
