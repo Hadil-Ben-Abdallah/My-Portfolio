@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 40,
+    title: "💻 40 JavaScript Interview Questions Every Frontend Developer Should Prepare in 2025 🔥",
+    description: "An article about 40 JavaScript Interview Questions you Should Prepare in 2025.",
+    image: "/imgs/article40.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/40-javascript-interview-questions-every-frontend-developer-should-prepare-in-2025-eal"
+  },
+  {
     id: 39,
     title: "🧠 40 System Design Questions That Could Land You a $150K Job in 2025 💰",
     description: "An article about 40 System Design Questions That Could Land You a $150K Job in 2025.",
