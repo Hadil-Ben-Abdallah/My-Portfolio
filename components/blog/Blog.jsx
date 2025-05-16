@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 41,
+    title: "🚀 30 DSA Patterns You Need to Master Before Your Next Interview in 2025 🔥",
+    description: "An article about 30 DSA Patterns You Need to Master Before Your Next Interview in 2025.",
+    image: "/imgs/article41.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/30-dsa-patterns-you-need-to-master-before-your-next-interview-in-2025-1gcp"
+  },
+  {
     id: 40,
     title: "💻 40 JavaScript Interview Questions Every Frontend Developer Should Prepare in 2025 🔥",
     description: "An article about 40 JavaScript Interview Questions you Should Prepare in 2025.",
