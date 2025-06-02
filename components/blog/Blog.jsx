@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 43,
+    title: "💻 If You Can’t Answer These 40 Next.js Questions, You’re Not Ready for 2025 Interviews ⚠️",
+    description: "An article about 40 Next.js Interview Questions you Should Prepare in 2025.",
+    image: "/imgs/article43.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/if-you-cant-answer-these-40-nextjs-questions-youre-not-ready-for-2025-interviews-1lfd"
+  },
+  {
     id: 42,
     title: "💻 40 Full-Stack Interview Questions Every Developer Should Prepare in 2025 🔥",
     description: "An article about 40 Full-Stack Interview Questions you Should Prepare in 2025.",
