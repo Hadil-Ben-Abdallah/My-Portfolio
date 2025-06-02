@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 44,
+    title: "🎯 Top 30 Behavioral Interview Questions That Can Make or Break Your Interview 🔥",
+    description: "An article about 30 Behavioral Interview Questions That Can Make or Break Your Interview.",
+    image: "/imgs/article44.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/top-30-behavioral-interview-questions-that-can-make-or-break-your-interview-4elm"
+  },
+  {
     id: 43,
     title: "💻 If You Can’t Answer These 40 Next.js Questions, You’re Not Ready for 2025 Interviews ⚠️",
     description: "An article about 40 Next.js Interview Questions you Should Prepare in 2025.",
