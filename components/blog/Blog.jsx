@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 45,
+    title: "🎯 How to Structure the Perfect Answer for “Tell Me About Yourself” in 2025 Interviews 🗣️",
+    description: "An article about the perfect answer for “Tell Me About Yourself” in 2025 Interviews.",
+    image: "/imgs/article45.png?height=200&width=300",
+    link: "https://dev.to/finalroundai/how-to-structure-the-perfect-answer-for-tell-me-about-yourself-in-2025-interviews-270o"
+  },
+  {
     id: 44,
     title: "🎯 Top 30 Behavioral Interview Questions That Can Make or Break Your Interview 🔥",
     description: "An article about 30 Behavioral Interview Questions That Can Make or Break Your Interview.",
