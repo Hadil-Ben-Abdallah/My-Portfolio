@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 46,
+    title: "🚀 5 VSCode Extensions That Will Make You Actually Enjoy Coding Again 🎉",
+    description: "An article about 5 VSCode extensions that will make you enjoy coding with your new friends.",
+    image: "/imgs/article46.png?height=200&width=300",
+    link: "https://dev.to/hadil/5-vscode-extensions-that-will-make-you-actually-enjoy-coding-again-372n"
+  },
+  {
     id: 45,
     title: "🎯 How to Structure the Perfect Answer for “Tell Me About Yourself” in 2025 Interviews 🗣️",
     description: "An article about the perfect answer for “Tell Me About Yourself” in 2025 Interviews.",
