@@ -7,6 +7,7 @@ import {
 import { TbBrandLeetcode } from "react-icons/tb";
 import { SiDailydotdev } from "react-icons/si";
 import { FaDev } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
 import styles from './social.module.css';
 import Anchor from '../link/Anchor';
 
@@ -32,9 +33,9 @@ const SocialLinks = () => {
     },
     {
       id: 4,
-      ariaLabel: 'codepen',
-      href: 'https://codepen.io/Hadil-Ben-Abdallah',
-      icon: AiOutlineCodepen,
+      ariaLabel: 'twitter',
+      href: 'https://x.com/hadilbnabdallah',
+      icon: RiTwitterXLine,
     },
     {
       id: 5,
