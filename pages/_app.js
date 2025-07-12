@@ -62,6 +62,7 @@ export default function MyApp({ Component, pageProps }) {
           property="og:url"
           content="https://hadilbenabdallah.vercel.app/"
         />
+        <link rel="canonical" href="https://hadilbenabdallah.vercel.app/" />
         <meta name="robots" content="all" />
       </Head>
       <style jsx global>{`
