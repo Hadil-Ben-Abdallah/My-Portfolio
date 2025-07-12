@@ -79,9 +79,15 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta
           name="twitter:image"
-          content="https://hadilbenabdallah.vercel.app/imgs/preview.png"
+          content="https://hadilbenabdallah.vercel.app/imgs/preview.jpg"
         />
         <meta name="twitter:creator" content="@hadilbnabdallah" />
+        <meta name="twitter:site" content="@hadilbnabdallah" />
+        <meta
+          name="twitter:url"
+          content="https://hadilbenabdallah.vercel.app/"
+        />
+        <meta name="twitter:domain" content="hadilbenabdallah.vercel.app" />
 
         <meta name="robots" content="all" />
         <script
