@@ -60,7 +60,7 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://hadilbenabdallah.vercel.app/imgs/preview.png"
+          content="https://hadilbenabdallah.vercel.app/imgs/preview.jpg"
         />
         <meta
           property="og:url"
