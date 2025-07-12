@@ -4,7 +4,6 @@ import {
   AiOutlineCodepen,
 } from 'react-icons/ai';
 import { TbBrandLeetcode } from "react-icons/tb";
-import { SiDailydotdev } from "react-icons/si";
 import { FaDev } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import Anchor from '../link/Anchor';
