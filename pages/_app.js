@@ -47,7 +47,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="copyright" content="Hadil Ben Abdallah" />
         <meta
           name="keywords"
-          content="Hadil, Hadil Ben Abdallah, hadilbenabdallah, Ben Abdallah, Abdallah, frontend, Front-end, backend, Back-end, fullstack, Full-stack, engineer, Engineer, React, Reactjs, Next, Next.js, Web, webdeveloper, freelancer, uiux, designer, bussiness, web3, PWA, performance, SEO, Optimization"
+          content="Hadil, Hadil Ben Abdallah, hadilbenabdallah, Ben Abdallah, Abdallah, full-stack developer, full stack engineer, junior software engineer, front-end developer, back-end developer, React, React.js, Next.js, Django, JavaScript, TypeScript, web development, web developer, UI/UX, UI design, UX design, responsive design, clean code, scalable web apps, SEO optimization, performance optimization, PWA, web3 developer, freelance web developer, remote developer, software engineer portfolio"
         />
         <meta name="author" content="Hadil Ben Abdallah" />
         <meta
