@@ -68,6 +68,21 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://hadilbenabdallah.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Hadil Ben Abdallah | Full-Stack Engineer"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore Hadil's portfolio of high-performance web apps built with React, Next.js, and Django."
+        />
+        <meta
+          name="twitter:image"
+          content="https://hadilbenabdallah.vercel.app/imgs/preview.png"
+        />
+        <meta name="twitter:creator" content="@hadilbnabdallah" />
+
         <meta name="robots" content="all" />
         <script
           type="application/ld+json"
