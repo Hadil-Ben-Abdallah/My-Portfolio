@@ -42,7 +42,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="I'm a Frontend Developer with 2 Years Experience of Self Learning and Projects Experience,"
+          content="Full-Stack Software Engineer skilled in React, Next.js & Django. I build fast, scalable, user-friendly web apps with clean code and strong backend systems."
         />
         <meta name="copyright" content="Hadil Ben Abdallah" />
         <meta
@@ -50,12 +50,18 @@ export default function MyApp({ Component, pageProps }) {
           content="Hadil, Hadil Ben Abdallah, hadilbenabdallah, Ben Abdallah, Abdallah, frontend, Front-end, backend, Back-end, fullstack, Full-stack, engineer, Engineer, React, Reactjs, Next, Next.js, Web, webdeveloper, freelancer, uiux, designer, bussiness, web3, PWA, performance, SEO, Optimization"
         />
         <meta name="author" content="Hadil Ben Abdallah" />
-        <meta property="og:title" content="Hadil Ben Abdallah Software Engineer" />
+        <meta
+          property="og:title"
+          content="Hadil Ben Abdallah Software Engineer"
+        />
         <meta
           property="og:description"
           content="Hello My Name is Hadil Ben Abdallah, I'm a Software Engineer specalize in Full Stack development"
         />
-        <meta property="og:url" content="https://hadilbenabdallah.vercel.app/" />
+        <meta
+          property="og:url"
+          content="https://hadilbenabdallah.vercel.app/"
+        />
         <meta name="robots" content="all" />
       </Head>
       <style jsx global>{`
