@@ -52,16 +52,21 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="author" content="Hadil Ben Abdallah" />
         <meta
           property="og:title"
-          content="Hadil Ben Abdallah Software Engineer"
+          content="Hadil Ben Abdallah | Full-Stack Engineer"
         />
         <meta
           property="og:description"
-          content="Hello My Name is Hadil Ben Abdallah, I'm a Software Engineer specalize in Full Stack development"
+          content="Explore the portfolio of Hadil Ben Abdallah, a full-stack software engineer skilled in React, Next.js, and Django — building fast, scalable, and user-friendly web apps."
+        />
+        <meta
+          property="og:image"
+          content="https://hadilbenabdallah.vercel.app/imgs/preview.png"
         />
         <meta
           property="og:url"
           content="https://hadilbenabdallah.vercel.app/"
         />
+        <meta property="og:type" content="website" />
         <link rel="canonical" href="https://hadilbenabdallah.vercel.app/" />
         <meta name="robots" content="all" />
         <script
