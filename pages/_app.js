@@ -64,6 +64,26 @@ export default function MyApp({ Component, pageProps }) {
         />
         <link rel="canonical" href="https://hadilbenabdallah.vercel.app/" />
         <meta name="robots" content="all" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              name: 'Hadil Ben Abdallah',
+              url: 'https://hadilbenabdallah.vercel.app/',
+              sameAs: [
+                'https://github.com/Hadil-Ben-Abdallah',
+                'https://www.linkedin.com/in/hadil-ben-abdallah/',
+              ],
+              jobTitle: 'Full-Stack Software Engineer',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Freelance',
+              },
+            }),
+          }}
+        />
       </Head>
       <style jsx global>{`
         html {
