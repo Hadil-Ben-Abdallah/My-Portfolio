@@ -6,6 +6,7 @@ import {
 import { TbBrandLeetcode } from "react-icons/tb";
 import { SiDailydotdev } from "react-icons/si";
 import { FaDev } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
 import Anchor from '../link/Anchor';
 
 export default function Footer() {
@@ -30,9 +31,9 @@ export default function Footer() {
     },
     {
       id: 4,
-      ariaLabel: 'codepen',
-      href: 'https://codepen.io/Hadil-Ben-Abdallah',
-      icon: <AiOutlineCodepen size={40} />,
+      ariaLabel: 'twitter',
+      href: 'https://x.com/hadilbnabdallah',
+      icon: <RiTwitterXLine size={40} />,
     },
     {
       id: 5,
