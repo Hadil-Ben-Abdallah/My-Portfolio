@@ -37,12 +37,12 @@ export default function NavBar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href="#home" onClick={handleLogoClick}>
-                <h3
+                <h1
                   aria-label="Hadil Ben Abdallah"
                   className="text-sky-600 text-3xl font-bold"
                 >
                   HADIL<span className="text-white text-3xl font-bold">.</span>DEV
-                </h3>
+                </h1>
               </Link>
             </div>
           </div>

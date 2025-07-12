@@ -82,9 +82,9 @@ export default function ContactMe() {
         className="container mx-auto flex flex-col sm:flex-row justify-center items-center"
       >
         <section className="mx-8 sm:mx-16 flex flex-col max-w-xl">
-          <h2 className=" font-bold text-5xl sm:text-7xl">
+          <h3 className=" font-bold text-5xl sm:text-7xl">
             Let&apos;s Connect!
-          </h2>
+          </h3>
           <p className="text-lg  mt-4">
             Feel free to reach out! I&apos;m always excited to connect with like-minded professionals and explore new opportunities. Whether you have a project in mind or want to collaborate on innovative ideas, let&apos;s work together to create something amazing. Send me a message, and let&apos;s start the conversation!
           </p>

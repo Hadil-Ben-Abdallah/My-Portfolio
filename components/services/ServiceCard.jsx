@@ -21,7 +21,7 @@ const ServicesCard = ({ src, alt, title, description, className }) => {
           <Image width={70} height={70} alt={alt} src={src} loading="lazy" />
         </Suspense>
       </div>
-      <h1 className="text-2xl text-center font-bold p-2">{title}</h1>
+      <h3 className="text-2xl text-center font-bold p-2">{title}</h3>
       <p className=" text-center text-lg p-2">{description}</p>
     </div>
   );
