@@ -1,6 +1,20 @@
-import { FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaJs } from 'react-icons/fa';
 
 export const PROJECTS = [
+  {
+    projectImage: '/imgs/project3.png',
+    headline: 'Intranet Dashboard for Axero',
+    techStack: [
+      { icon: FaHtml5, color: '#E34F26' },
+      { icon: FaCss3Alt, color: '#1572B6' },
+      { icon: FaJs, color: '#F7DF1E' },
+      { icon: FaBootstrap, color: '#7952B3' },
+      { icon: FaSass, color: '#CD6799' },
+    ],
+    description: `A modern, responsive intranet dashboard designed for Axero’s Dev.to challenge, built to streamline internal communication, boost productivity, and unify team resources in one sleek interface.`,
+    liveTestLink: 'https://axero-dashboard.vercel.app/',
+    gitLink: 'https://github.com/Hadil-Ben-Abdallah/Axero-Dashboard',
+  },
   {
     projectImage: '/imgs/project2.png',
     headline: 'Original Fitness Club',
