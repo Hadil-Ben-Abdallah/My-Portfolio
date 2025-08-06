@@ -59,8 +59,8 @@ const About = () => {
     ),
     []
   );
-  const aboutText = 
-      `As a full-stack software engineer, I specialize in creating high-performance web applications that are both visually engaging and scalable. With expertise in modern frameworks like React, Next.js, and Django, I build intuitive, responsive front-end interfaces, while ensuring robust and secure back-end systems. I focus on writing clean, maintainable code and prioritize performance, reliability, and scalability in every project. Collaboration and communication are key to my process, and I’m dedicated to delivering solutions that exceed expectations and drive long-term value.`;
+  const aboutText =
+    `As a full-stack software engineer, I specialize in creating high-performance web applications that are both visually engaging and scalable. With expertise in modern frameworks like React, Next.js, and Django, I build intuitive, responsive front-end interfaces, while ensuring robust and secure back-end systems. I focus on writing clean, maintainable code and prioritize performance, reliability, and scalability in every project. Collaboration and communication are key to my process, and I’m dedicated to delivering solutions that exceed expectations and drive long-term value.`;
   return useMemo(
     () => (
       <div id="about" className={`${styles['about-container']}`}>
@@ -70,7 +70,7 @@ const About = () => {
             <HyperOne value={'About Me'} />
             <h2 className="text-2xl">
               {' '}
-              Junior Full-stack software Engineer 
+              Junior Full-stack software Engineer
             </h2>
             <p className="text-xl text-justify">{aboutText}</p>
             <div className={`${styles.personalInfo}`}>
@@ -91,14 +91,14 @@ const About = () => {
                 <span>Available for work</span>
               </div>
             </div>
-            {/* <Link
+            <Link
               aria-label="download cv"
               download
               target="_blank"
-              href={'#'}
+              href="/Hadil_Ben_Abdallah_CV.pdf"
             >
               <CustomButton text={'Download CV'} />
-            </Link> */}
+            </Link>
           </section>
           <section className={styles.skillSection}>
             <div className={styles.subject}>
@@ -106,9 +106,8 @@ const About = () => {
               <div className={styles['progress-bar']}>
                 <div
                   ref={ref1}
-                  className={`${
-                    isVisible ? styles['fade-in1'] : styles['progress-line']
-                  }`}
+                  className={`${isVisible ? styles['fade-in1'] : styles['progress-line']
+                    }`}
                   value="95%"
                   style={{
                     width: '95%',
@@ -121,9 +120,8 @@ const About = () => {
               <div className={styles['progress-bar']}>
                 <div
                   ref={ref2}
-                  className={`${
-                    isVisible ? styles['fade-in2'] : styles['progress-line']
-                  }`}
+                  className={`${isVisible ? styles['fade-in2'] : styles['progress-line']
+                    }`}
                   value="85%"
                   style={{
                     width: '85%',
@@ -136,9 +134,8 @@ const About = () => {
               <div className={styles['progress-bar']}>
                 <div
                   ref={ref3}
-                  className={`${
-                    isVisible ? styles['fade-in3'] : styles['progress-line']
-                  }`}
+                  className={`${isVisible ? styles['fade-in3'] : styles['progress-line']
+                    }`}
                   value="80%"
                   style={{
                     width: '80%',
@@ -151,9 +148,8 @@ const About = () => {
               <div className={styles['progress-bar']}>
                 <div
                   ref={ref4}
-                  className={`${
-                    isVisible ? styles['fade-in4'] : styles['progress-line']
-                  }`}
+                  className={`${isVisible ? styles['fade-in4'] : styles['progress-line']
+                    }`}
                   value="80%"
                   style={{
                     width: '80%',
