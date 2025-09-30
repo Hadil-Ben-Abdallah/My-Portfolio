@@ -32,7 +32,7 @@ export function ThemeToggler() {
     <button
       aria-label="toggle icon"
       onClick={toggleThemeHandler}
-      className="inline-flex items-center justify-center rounded-md text-lg"
+      className="inline-flex items-center justify-center rounded-md text-lg h-12 w-12 p-2"
       style={{
         cursor: 'var(--pointer-cursor)',
       }}
