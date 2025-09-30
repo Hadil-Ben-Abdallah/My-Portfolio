@@ -23,7 +23,7 @@ const BlogCard = ({ post }) => {
             rel="noopener noreferrer"
             className="text-[#0EA5E9] font-bold hover:no-underline"
           >
-            Read More
+            Read Full article
           </a>
         </div>
       </div>
