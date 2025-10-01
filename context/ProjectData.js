@@ -12,7 +12,7 @@ export const PROJECTS = [
       { icon: FaSass, color: '#CD6799' },
     ],
     description: `A modern, responsive intranet dashboard designed for Axero’s Dev.to challenge, built to streamline internal communication, boost productivity, and unify team resources in one sleek interface.`,
-    liveTestLink: 'https://axero-dashboard.vercel.app/',
+    liveTestLink: 'https://axero-dashboard.onrender.com/',
     gitLink: 'https://github.com/Hadil-Ben-Abdallah/Axero-Dashboard',
   },
   {
