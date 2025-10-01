@@ -25,7 +25,7 @@ export const PROJECTS = [
     ],
     description: `A dynamic web page for Original Fitness Club gym marking the start of my journey with JavaScript development.
       Designed an engaging, user-friendly interface and implemented interactive features.`,
-    liveTestLink: 'https://originalfit.vercel.app/',
+    liveTestLink: 'https://originalfit.onrender.com/',
     gitLink: 'https://github.com/Hadil-Ben-Abdallah/Gym',
   },
   {
