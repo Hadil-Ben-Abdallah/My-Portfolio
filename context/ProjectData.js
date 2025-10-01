@@ -38,7 +38,7 @@ export const PROJECTS = [
     ],
     description: `A dynamic web page for the company Communications & Systems, marking the start of my journey with JavaScript development.
       Designed an engaging, user-friendly interface and implemented interactive features.`,
-    liveTestLink: 'https://communications-and-systems.vercel.app/',
+    liveTestLink: 'https://communications-and-systems.onrender.com/',
     gitLink: 'https://github.com/Hadil-Ben-Abdallah/Communications-and-systems',
   },
 ];
