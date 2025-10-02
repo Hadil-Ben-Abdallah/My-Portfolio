@@ -90,6 +90,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { BiLinkExternal } from 'react-icons/bi';
+import Image from "next/image";
 
 const ProjectCard = ({ projectImage, headline, techStack, description, liveTestLink, gitLink, index }) => {
   const isEven = index % 2 === 0;
@@ -99,9 +100,11 @@ const ProjectCard = ({ projectImage, headline, techStack, description, liveTestL
       className={`flex flex-col lg:flex-row ${isEven ? 'lg:flex-row-reverse' : ''} w-full mb-24 items-center justify-center gap-8 lg:gap-16 px-4`}
     >
       <div className="w-full lg:w-1/2 max-w-[500px] z-10">
-        <img
+        <Image
           src={projectImage}
           alt={headline}
+          width={500}
+          height={300}
         />
       </div>
 
