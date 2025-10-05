@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
+    "@netlify/plugin-nextjs": "^5.13.4",
     "@vercel/analytics": "^1.0.2",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
