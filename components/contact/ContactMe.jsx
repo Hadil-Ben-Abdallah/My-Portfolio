@@ -31,7 +31,7 @@ export default function ContactMe() {
     console.log("Sending email...");
     emailjs
       .sendForm(
-        'service_xjpmna6',
+        'service_ur9brid',
         'template_xpmqgei',
         form.current,
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID
