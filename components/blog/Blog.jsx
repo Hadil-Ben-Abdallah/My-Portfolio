@@ -8,7 +8,7 @@ const blogPosts = [
   {
     id: 48,
     title: "From Zero to 373 Days: How Daily LeetCode Challenges Transformed My Programming Journey 🔥",
-    description: "I shared in this article LeetCode journey and how I reached 373 days",
+    description: "In this article, I shared my LeetCode journey and how I reached 373 streaks",
     image: "/imgs/article48.png?height=200&width=300",
     link: "https://dev.to/hadil/from-zero-to-373-days-how-daily-leetcode-challenges-transformed-my-programming-journey-47o9"
   },
