@@ -6,6 +6,13 @@ import BlogCard from './BlogCard';
 
 const blogPosts = [
   {
+    id: 47,
+    title: "🚀 Modern Intranet Dashboard UI Built for the Axero Frontend Challenge",
+    description: "An article about my submission for Axero frontend challenge on Dev.to where I built an interactive intranet dashboard",
+    image: "/imgs/article47.png?height=200&width=300",
+    link: "https://dev.to/hadil/modern-intranet-dashboard-ui-built-for-the-axero-frontend-challenge-2am8"
+  },
+  {
     id: 46,
     title: "🚀 5 VSCode Extensions That Will Make You Actually Enjoy Coding Again 🎉",
     description: "An article about 5 VSCode extensions that will make you enjoy coding with your new friends.",
