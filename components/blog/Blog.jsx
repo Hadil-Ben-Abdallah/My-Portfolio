@@ -8,7 +8,7 @@ const blogPosts = [
   {
     id: 49,
     title: "You’re a Real JavaScript Developer Only If...",
-    description: "Some people say you become a real developer when you build your first app. JavaScript developers know that’s not true. 😅 So, you’re a real JavaScript developer only if... 👇🏻",
+    description: "Some people say you become a real developer when you build your first app. JavaScript developers know that’s not true. 😅 So, you’re a real JavaScript developer only if...",
     image: "/imgs/article49.jpg?height=200&width=300",
     link: "https://dev.to/hadil/youre-a-real-javascript-developer-only-if-294c"
   },
