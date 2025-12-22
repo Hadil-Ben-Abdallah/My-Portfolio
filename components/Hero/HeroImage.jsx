@@ -4,7 +4,7 @@ export default function HeroImage() {
   return (
     <Image
       alt="Hadil image"
-      src="/imgs/me.png"
+      src="/imgs/me1.png"
       width={288}
       height={288}
       layout="fixed"
